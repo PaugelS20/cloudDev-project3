@@ -4,13 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//          <h2>Paugels Website</h2>
-//       </header>
+      /*<header>
+           <img src={logo} className="App-logo" alt="logo" />
+           <p>
+             Edit <code>src/App.js</code> and save to reload.
+           </p>
+            <h2>Paugels Website</h2>
+       </header>*/
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@ function App() {
 </head>
 <div class="container">
   <body>
-      <header>
+      <header className="App-header">
         <img id="Logo" src="images/Logo.png" alt="Clone music shop logo">
               <nav aria-label="Main Menu">
                   <ul aria-label="Main Menu" role="menubar">
