@@ -10,7 +10,7 @@ function App() {
              Edit <code>src/App.js</code> and save to reload.
            </p>
             /*<h2>Paugels Website</h2>*/
-       </header>*/
+       /*</header>*/
 
 export default App;
 import logo from './logo.svg';
