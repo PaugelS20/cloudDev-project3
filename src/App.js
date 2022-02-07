@@ -20,14 +20,14 @@ function App() {
 //       </header>
 //     </div>
 <div className="App">
-// <!-- Sam Paugel 2021 -->
-// <head>
-//     <meta charset="utf-8">
-//     <meta name="viewport" content="width=device-width, initial-scale=1">
-//     <link rel="icon" type="favicon" href="favicon.ico">
-//     <link rel="stylesheet" href="css/Master.css">
-//     <title>Home</title>
-// </head>
+/*Sam Paugel 2021*/
+ <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="favicon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/Master.css"/>
+    <title>Home</title>
+</head>
 <div className="container">
   <body>
       <header>
