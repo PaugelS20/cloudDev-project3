@@ -20,16 +20,16 @@
 //         </a>
 //       </header>
 //     </div>
- import './Master.css';
+import './Master.css';
+import'./logo.png'
 function App() {
   return (
 <div className="App">
-/*Sam Paugel 2021*/
+
  <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="icon" type="favicon" href="favicon.ico"/>
-    <link rel="stylesheet" href="css/Master.css"/>
     <title>Home</title>
 </head>
 <div className="container">
@@ -61,18 +61,20 @@ function App() {
 
 <footer>
     <h3>Find me here<hr/></h3>
-    <p>6180 Perrot Place McFarland, WI 53558</p>
+    <p>Madison College 1701 Wright St, Madison, WI 53704</p>
     <p>(608)-514-4097</p>
-    <p>Clonemusicshop@gmail.com</p>
+    <p>shpaugel@madisoncollege.edu</p>
 
     <h3>Store Hours<hr/></h3>
-    <p>Mon-Fri: 9am-8pm <br/><br/> Sat-Sun: 10am-7pm</p>
+    <p>Mon-Fri: 9am-8pm</p> 
+    <p>Sat-Sun: 10am-7pm</p>
 
     <h3>Add us here</h3>
     <a href="https://www.instagram.com/"><img className="InstaHandle" src="images/instagram.svg" alt="Instagram Logo" target="blank"/></a>
         <a href="https://www.facebook.com/"><img className="InstaHandle" src="images/facebook.svg" alt="Facebook Logo" target="blank"/></a>
         <a href="https://www.twitter.com/"><img className="InstaHandle" src="images/twitter.svg" alt="Twitter Logo" target="blank"/></a>
         <a href="https://www.youtube.com/"><img className="InstaHandle" src="images/youtube.svg" alt="Youtube Logo" target="blank"/></a>
+ /*Sam Paugel 2021©*/
 </footer>
 
 
