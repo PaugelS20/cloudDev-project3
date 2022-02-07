@@ -20,6 +20,7 @@
 //         </a>
 //       </header>
 //     </div>
+ import './Master.css';
 function App() {
   return (
 <div className="App">
