@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
 // import'./index.html';
 // import'./index.html';
 // import'./index.html';
 // import'./index.html';
-function App() {
-  return (
 //     <div className="App">
 //       <header className="App-header">
 //         <img src={logo} className="App-logo" alt="logo" />
@@ -22,6 +20,8 @@ function App() {
 //         </a>
 //       </header>
 //     </div>
+function App() {
+  return (
 <div className="App">
 /*Sam Paugel 2021*/
  <head>
