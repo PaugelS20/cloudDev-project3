@@ -55,6 +55,7 @@ function App() {
         <img id="mash" src="images/MASH.png" alt="mash actors wayne rogers and alan alda"/>
     </section>
     </main>
+  </body>
 </div>
 <footer>
     <h3>Find me here<hr/></h3>
@@ -72,7 +73,7 @@ function App() {
         <a href="https://www.youtube.com/"><img className="InstaHandle" src="images/youtube.svg" alt="Youtube Logo" target="blank"/></a>
 </footer>
 
-  </body>
+
   <a href="#mainContent" className="skipLink"></a>
 </div>
   );
