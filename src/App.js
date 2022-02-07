@@ -64,7 +64,7 @@ function App() {
     <p>Clonemusicshop@gmail.com</p>
 
     <h3>Store Hours<hr/></h3>
-    <p>Mon-Fri: 9am-8pm <br><br> Sat-Sun: 10am-7pm</p>
+    <p>Mon-Fri: 9am-8pm <br/><br/> Sat-Sun: 10am-7pm</p>
 
     <h3>Add us here</h3>
     <a href="https://www.instagram.com/"><img className="InstaHandle" src="images/instagram.svg" alt="Instagram Logo" target="blank"/></a>
