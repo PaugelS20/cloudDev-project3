@@ -57,12 +57,12 @@ function App() {
     </main>
 </div>
 <footer>
-    <h3>Find me here<hr></h3>
+    <h3>Find me here<hr/></h3>
     <p>6180 Perrot Place McFarland, WI 53558</p>
     <p>(608)-514-4097</p>
     <p>Clonemusicshop@gmail.com</p>
 
-    <h3>Store Hours<hr></h3>
+    <h3>Store Hours<hr/></h3>
     <p>Mon-Fri: 9am-8pm <br><br> Sat-Sun: 10am-7pm</p>
 
     <h3>Add us here</h3>
