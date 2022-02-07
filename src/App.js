@@ -55,8 +55,9 @@ function App() {
         <img id="mash" src="images/MASH.png" alt="mash actors wayne rogers and alan alda"/>
     </section>
     </main>
+  </body>
 </div>
-    </body>
+
 <footer>
     <h3>Find me here<hr/></h3>
     <p>6180 Perrot Place McFarland, WI 53558</p>
