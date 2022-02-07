@@ -19,7 +19,7 @@ function App() {
 //         </a>
 //       </header>
 //     </div>
-<div>
+<div className="App">
 // <!-- Sam Paugel 2021 -->
 // <head>
 //     <meta charset="utf-8">
