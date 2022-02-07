@@ -21,7 +21,7 @@
 //       </header>
 //     </div>
 import './Master.css';
-import'./logo.png'
+import'./Logo.png'
 function App() {
   return (
 <div className="App">
