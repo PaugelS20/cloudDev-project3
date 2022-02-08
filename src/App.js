@@ -21,7 +21,6 @@
 //       </header>
 //     </div>
 /*import './Master.css';*/
-import'./images'
 function App() {
   return (
 <div className="App">
@@ -46,14 +45,14 @@ function App() {
 <main>
     <h1 id="mainContent" id="storeheader">Welcome to the Store</h1>
     <section>
-        <img id="cloneVinyl"src="images/CloneVinyl.png" alt="clone trooper vinyl"/>
+        <img id="cloneVinyl"src="./CloneVinyl.png" alt="clone trooper vinyl"/>
         <p className="width">This is our music store we have everything from cds, vinyl, mp3s and more! There is so much to choose from. We also have everything priced according to value or use. I sincerely hope you enjoy our store and leave us a review.</p>
-        <img src="images/tripple.png" alt=""/>
+        <img src="./tripple.png" alt=""/>
     </section>
 
     <section>
         <p className="width">You can find out more about us on our About us page. There we go indepth about who we are, our mission and what makes us groove.Like M*A*S*H is my personal groove it's my favorite TV show!</p>
-        <img id="mash" src="./images/MASH.png" alt="mash actors wayne rogers and alan alda"/>
+        <img id="mash" src="./MASH.png" alt="mash actors wayne rogers and alan alda"/>
     </section>
     </main>
   </body>
