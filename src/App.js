@@ -26,12 +26,12 @@ function App() {
   return (
 <div className="App">
 
- <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="icon" type="favicon" href="favicon.ico"/>
-    <title>Home</title>
-</head>
+//  <head>
+//     <meta charset="utf-8"/>
+//     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+//     <link rel="icon" type="favicon" href="favicon.ico"/>
+//     <title>Home</title>
+// </head>
 <div className="container">
   <body>
       <header>
