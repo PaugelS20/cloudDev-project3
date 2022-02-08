@@ -11,3 +11,135 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Sam Paugel 2021 */
+.container {
+    display: flex;
+    flex-flow: column;
+    row-gap: 1em;
+}
+.InstaHandle {
+    width: 2%;
+    filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
+    /* #970C10; */
+}
+.width {
+    padding: 41px;
+}
+#Logo {
+    width: 20%;
+}
+#cloneVinyl {
+    width: 30%;
+}
+#mash {
+    padding-bottom: 20px;
+}
+hr {
+    background-color: black;
+    border: none;
+    height: 2px;
+}
+/* @font-face {
+    font-family: 'magazine';
+    src:  url('magazine.woff2'), format('woff2');
+    font-family: 'Helvetica';
+    src:  url('Helvetica.woff2'), format('woff2');
+} */
+body, input, textarea, select, button {
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    background-color: #BFCAD0;
+}
+h1,h2,h3 {
+    font-family: 'magazine';
+}
+header h1 {
+    padding: .2em;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #970C10;
+    color: #ffffff;
+}
+h1 {
+    text-align: center;
+}
+/* Tab through thing */
+ul li:hover ul, ul li ul:hover, ul li:focus-within ul {
+    display: block;
+}
+/* Main Content Link */
+.skipLink {
+    position: absolute;
+    left: -1000px;
+}
+.skipLink:focus, .skipLink:active {
+    left: 0;
+}
+
+/* nav styles */
+p,nav {
+    font-family: 'Helvetica';
+    font-size: .9em;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 0px;
+    margin: 0px;
+}
+nav li {
+    display: inline-block;
+    padding: 0.5em;
+    /* background-color: #738580;
+    border-radius: 5px; */
+}
+/* Link Styles */
+a:link {
+    text-decoration: none;
+    color: #970C10; /* #ff0000 */
+}
+a:hover {
+    color: #000000;
+}
+/* Nav link Styles */
+nav a:link {
+    text-decoration: none;
+    color: #000000;
+}
+nav a:visited {
+    color: darkred;
+}
+nav a:hover {
+    color: #000000;
+}
+nav a:active {
+    color: #970C10;
+}
+nav a::before {
+    content: '';
+    display: block;
+    height:  3px;
+    width: 0%;
+    background-color: #444444;
+    position: relative;
+    top: 1.5em;
+    transition: all ease-in-out 269ms;
+}
+nav a:hover::before {
+    width: 100%;
+}
+#storeheader {
+    font-size: 1.9em;
+}
+section {
+    text-align: center;
+}
+/* link styles */
+a {
+    color: blue;
+}
+footer {
+    background-color: #738580;
+    padding: 20px;
+}
