@@ -20,7 +20,7 @@
 //         </a>
 //       </header>
 //     </div>
-import './Master.css';
+/*import './Master.css';*/
 import'./Logo.png'
 function App() {
   return (
