@@ -1,12 +1,3 @@
-/*import logo from './logo.svg';
-import './App.css';
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo"/>
-        <p Edit <code>src/App.js</code> and save to reload.</p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a>
-      </header>
-     </div>*/
 function App() { return (
 <div className="App">
 <div className="container">
@@ -15,7 +6,10 @@ function App() { return (
         <img id="Logo" src="images/Logo.png" alt="music shop logo"/>
               <nav aria-label="Main Menu">
                   <ul aria-label="Main Menu" role="menubar">
-                <li><a>Products.html</a></li>
+                      <li role="none"><a href=index.html>Home</a></li>
+                      <li role="none"><a href=Products.html>Products</a></li>
+                      <li role="none"><a href=Members.html>Members</a></li>
+                      <li role="none"><a href=AboutUs.html>About Us</a></li>
                   </ul>
               </nav>
       </header>
