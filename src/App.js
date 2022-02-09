@@ -8,7 +8,7 @@ function App() { return (
                   <ul aria-label="Main Menu" role="menubar">
             
                   </ul>
-              </nav>
+              </NavBar>
       </header>
 
 <main>
