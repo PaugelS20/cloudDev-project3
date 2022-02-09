@@ -6,10 +6,10 @@ function App() { return (
         <img id="Logo" src="images/Logo.png" alt="music shop logo"/>
               <nav aria-label="Main Menu">
                   <ul aria-label="Main Menu" role="menubar">
-                      <li role="none"><a href=index.html>Home</a></li>
-                      <li role="none"><a href=Products.html>Products</a></li>
-                      <li role="none"><a href=Members.html>Members</a></li>
-                      <li role="none"><a href=AboutUs.html>About Us</a></li>
+                      <li><a href=index.html>Home</a></li>
+                      <li><a href=Products.html>Products</a></li>
+                      <li><a href=Members.html>Members</a></li>
+                      <li><a href=AboutUs.html>About Us</a></li>
                   </ul>
               </nav>
       </header>
