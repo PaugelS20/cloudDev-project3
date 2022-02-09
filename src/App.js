@@ -1,3 +1,4 @@
+import App.css
 function App() { return (
 <div className="App">
 <div className="container">
@@ -6,7 +7,7 @@ function App() { return (
         <img id="Logo" src="./Logo.png" alt="Music-shop-logo"/>
               <nav aria-label="Main Menu">
                   <ul aria-label="Main Menu" role="menubar">
-            
+
                   </ul>
               </nav>
       </header>
@@ -30,12 +31,12 @@ function App() { return (
 <footer>
     <h3>Find me here<hr/></h3>
     <p>Madison College 1701 Wright St, Madison, WI 53704</p>
-  
+
     <p><a href="tel:+16085144097">(608)-514-4097</a></p>
     <p><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a></p>
 
     <h3>Store Hours<hr/></h3>
-    <p>Mon-Fri: 9am-8pm</p> 
+    <p>Mon-Fri: 9am-8pm</p>
     <p>Sat-Sun: 10am-7pm</p>
 
     <h3>Add Me here</h3>
@@ -43,13 +44,10 @@ function App() { return (
         <a href="https://www.facebook.com/"><img className="InstaHandle" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
         <a href="https://www.twitter.com/"><img className="InstaHandle" src="./twitter.svg" alt="Twitter Logo" target="blank"/></a>
         <a href="https://www.youtube.com/"><img className="InstaHandle" src="./youtube.svg" alt="Youtube Logo" target="blank"/></a>
- <i>Sam Paugel 2021©</i>
+        <i>Sam Paugel 2021©</i>
 </footer>
-
-
-  <a href="#mainContent" className="skipLink"></a>
+    <a href="#mainContent" className="skipLink"></a>
 </div>
   );
 }
-
 export default App;
