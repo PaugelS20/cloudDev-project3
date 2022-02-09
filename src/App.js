@@ -52,7 +52,7 @@ function App() {
 
     <section>
         <p className="width">You can find out more about us on our About us page. There we go indepth about who we are, our mission and what makes us groove.Like M*A*S*H is my personal groove it's my favorite TV show!</p>
-        <img id="mash" src="./MASH.png" alt="mash actors wayne rogers and alan alda"/>
+        <img id="mash" src=".images/MASH.png" alt="mash actors wayne rogers and alan alda"/>
     </section>
     </main>
   </body>
@@ -61,18 +61,20 @@ function App() {
 <footer>
     <h3>Find me here<hr/></h3>
     <p>Madison College 1701 Wright St, Madison, WI 53704</p>
+    <h3>My Cell</h3><hr/>
     <p>(608)-514-4097</p>
-    <p>shpaugel@madisoncollege.edu</p>
+    <h3>My Email</h3><hr/>
+    <a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a>
 
     <h3>Store Hours<hr/></h3>
     <p>Mon-Fri: 9am-8pm</p> 
     <p>Sat-Sun: 10am-7pm</p>
 
     <h3>Add us here</h3>
-    <a href="https://www.instagram.com/"><img className="InstaHandle" src="./images/instagram.svg" alt="Instagram Logo" target="blank"/></a>
-        <a href="https://www.facebook.com/"><img className="InstaHandle" src="./images/facebook.svg" alt="Facebook Logo" target="blank"/></a>
-        <a href="https://www.twitter.com/"><img className="InstaHandle" src="./images/twitter.svg" alt="Twitter Logo" target="blank"/></a>
-        <a href="https://www.youtube.com/"><img className="InstaHandle" src="./images/youtube.svg" alt="Youtube Logo" target="blank"/></a>
+        <a href="https://www.instagram.com/"><img className="InstaHandle" src=".images/instagram.svg" alt="Instagram Logo" target="blank"/></a>
+        <a href="https://www.facebook.com/"><img className="InstaHandle" src=".images/facebook.svg" alt="Facebook Logo" target="blank"/></a>
+        <a href="https://www.twitter.com/"><img className="InstaHandle" src=".images/twitter.svg" alt="Twitter Logo" target="blank"/></a>
+        <a href="https://www.youtube.com/"><img className="InstaHandle" src=".images/youtube.svg" alt="Youtube Logo" target="blank"/></a>
  <p>Sam Paugel 2021©</p>
 </footer>
 
