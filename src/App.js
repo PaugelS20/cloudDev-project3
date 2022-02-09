@@ -16,7 +16,7 @@ function App() { return (
     <section>
         <img id="cloneVinyl" src="./CloneVinyl.png" alt="clone trooper vinyl"/>
         <p className="width">This is our music store we have everything from cds, vinyl, mp3s and more! There is so much to choose from. We also have everything priced according to value or use. I sincerely hope you enjoy our store and leave us a review.</p>
-        <img src="./tripple.png" alt="Tripple pictures"/>
+        <img id="tripple" src="./tripple.png" alt="Tripple pictures"/>
     </section>
 
     <section>
@@ -31,8 +31,8 @@ function App() { return (
     <h3>Find me here<hr/></h3>
     <p>Madison College 1701 Wright St, Madison, WI 53704</p>
   
-    <a href="tel:+16085144097">(608)-514-4097</a><br/>
-    <a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a>
+    <p><a href="tel:+16085144097">(608)-514-4097</a></p>
+    <p><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a></p>
 
     <h3>Store Hours<hr/></h3>
     <p>Mon-Fri: 9am-8pm</p> 
