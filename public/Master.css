@@ -5,8 +5,8 @@
     row-gap: 1em;
 }
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  #tripple {
+    flex-wrap: wrap;
   }
 }
 .InstaHandle {
