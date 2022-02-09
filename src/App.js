@@ -4,11 +4,11 @@ function App() { return (
   <body>
       <header>
         <img id="Logo" src="images/Logo.png" alt="music shop logo"/>
-              <Navbar aria-label="Main Menu">
+              <nav aria-label="Main Menu">
                   <ul aria-label="Main Menu" role="menubar">
             
                   </ul>
-              </NavBar>
+              </nav>
       </header>
 
 <main>
