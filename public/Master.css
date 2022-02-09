@@ -4,6 +4,11 @@
     flex-flow: column;
     row-gap: 1em;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 .InstaHandle {
     width: 2%;
     filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
