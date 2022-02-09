@@ -34,7 +34,7 @@ function App() {
 <div className="container">
   <body>
       <header>
-        <img id="Logo" src="images/Logo.png" alt="Clone music shop logo"/>
+        <img id="Logo" src="./images/Logo.png" alt="Clone music shop logo"/>
               <nav aria-label="Main Menu">
                   <ul aria-label="Main Menu" role="menubar">
                 
