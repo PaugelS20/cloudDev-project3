@@ -12,10 +12,10 @@ function App() { return (
 <div className="container">
   <body>
       <header>
-        <img id="Logo" src="./images/Logo.png" alt="Clone music shop logo"/>
+        <img id="Logo" src="images/Logo.png" alt="music shop logo"/>
               <nav aria-label="Main Menu">
                   <ul aria-label="Main Menu" role="menubar">
-                
+                <li><a>Products.html</a></li>
                   </ul>
               </nav>
       </header>
