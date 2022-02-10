@@ -16,8 +16,12 @@ function App() { return (
     <h1 id="mainContent" id="storeheader">Welcome to the Store</h1>
     <section>
         <img id="cloneVinyl" src="./CloneVinyl.png" alt="clone trooper vinyl"/>
-        <p className="width">This is our music store we have everything from cds, vinyl, mp3s and more! There is so much to choose from. We also have everything priced according to value or use. I sincerely hope you enjoy our store and leave us a review.</p>
-        <img id="tripple" src="./tripple.png" alt="Tripple pictures"/>
+        <p className="width">This is our music store we have everything from cds, vinyl, mp3s and more!
+        There is so much to choose from. We also have everything priced according to value or use.
+        I sincerely hope you enjoy our store and leave us a review.</p>
+        <img id="bwGuitar" src="./bw-guitar.png" alt="Elton John"/>
+        <img id="eltonJohn" src="./elton-john.png" alt="Elton John"/>
+        <img id="mashGroupPic" src="./mash-group-picture.png" alt="Elton John"/>
     </section>
 
     <section>
@@ -42,10 +46,10 @@ function App() { return (
     <p>Sat-Sun: 10am-7pm</p>
 
     <h3>Add Me here</h3>
-        <a href="https://www.instagram.com/"><img className="InstaHandle" src="./instagram.svg" alt="Instagram Logo" target="blank"/></a>
-        <a href="https://www.facebook.com/"><img className="InstaHandle" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
-        <a href="https://www.twitter.com/"><img className="InstaHandle" src="./twitter.svg" alt="Twitter Logo" target="blank"/></a>
-        <a href="https://www.youtube.com/"><img className="InstaHandle" src="./youtube.svg" alt="Youtube Logo" target="blank"/></a>
+        <a href="https://www.instagram.com/"><img className="socialMedia" src="./instagram.svg" alt="Instagram Logo" target="blank"/></a>
+        <a href="https://www.facebook.com/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
+        <a href="https://www.twitter.com/"><img className="socialMedia" src="./twitter.svg" alt="Twitter Logo" target="blank"/></a>
+        <a href="https://www.youtube.com/"><img className="socialMedia" src="./youtube.svg" alt="Youtube Logo" target="blank"/></a>
         <i>Sam Paugel 2021©</i>
 </footer>
     <a href="#mainContent" className="skipLink"></a>

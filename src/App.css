@@ -5,11 +5,11 @@
     row-gap: 1em;
 }
 @media only screen and (max-width: 600px) {
-    #tripple {
+    # {
         flex-wrap: wrap;
     }
 }
-.InstaHandle {
+.socialMedia {
     width: 2%;
     filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
     /* #970C10; */
