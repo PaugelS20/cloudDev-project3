@@ -4,7 +4,7 @@ function App() { return (
 <div className="container">
   <body>
       <header>
-        <img id="Logo" src="./images/Logo.png" alt="Music-shop-logo"/>
+        <img class="mainContentPics" src="./images/Logo.png" alt="Music-shop-logo"/>
               <nav aria-label="Main Menu">
                   <ul aria-label="Main Menu" role="menubar">
 
@@ -15,7 +15,7 @@ function App() { return (
 <main>
     <h1 id="mainContent" id="storeheader">Welcome to the Store</h1>
     <section>
-        <img id="cloneVinyl" src="./images/CloneVinyl.png" alt="clone trooper vinyl"/>
+        <img class="mainContentPics" src="./images/CloneVinyl.png" alt="clone trooper vinyl"/>
         <p className="width">This is our music store we have everything from cds, vinyl, mp3s and more!
         There is so much to choose from. We also have everything priced according to value or use.
         I sincerely hope you enjoy our store and leave us a review.</p>

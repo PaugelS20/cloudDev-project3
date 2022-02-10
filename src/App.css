@@ -9,22 +9,15 @@
         flex-wrap: wrap;
         /* width: 100%; */
     }
+}.width {
+    padding: 41px;
 }
 .socialMedia {
-    width: 2%;
+    max-width: 100%;
     filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
     /* #970C10; */
 }
-.width {
-    padding: 41px;
-}
 .mainContentPics {
-    max-width: 100%;
-}
-#Logo {
-    max-width: 100%;
-}
-#cloneVinyl {
     max-width: 100%;
 }
 #mash {
