@@ -7,7 +7,7 @@
 @media only screen and (max-width: 600px) {
     .mainContentPics {
         flex-wrap: wrap;
-        width: 100%;
+        /* width: 100%; */
     }
 }
 .socialMedia {
@@ -19,10 +19,10 @@
     padding: 41px;
 }
 .mainContentPics {
-    width: 100%;
+    max-width: 100%;
 }
 #Logo {
-    width: 100%;
+    max-width: 100%;
 }
 #cloneVinyl {
     max-width: 100%;
@@ -30,9 +30,6 @@
 #mash {
     max-width: 100%;
     padding-bottom: 20px;
-}
-#mashGroupPic {
-    max-width: 100%;
 }
 hr {
     background-color: black;
