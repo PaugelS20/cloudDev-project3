@@ -4,9 +4,9 @@ function App() { return (
 <div className="container">
   <body>
       <header>
-        <img class="mainContentPics" src="./images/Logo.png" alt="Music-shop-logo"/>
+        <img id="mainLogo" src="./images/Logo.png" alt="Music-shop-logo"/>
               <nav aria-label="Main Menu">
-                  <ul aria-label="Main Menu" role="menubar">
+                  <ul role="menubar">
 
                   </ul>
               </nav>
@@ -35,22 +35,22 @@ function App() { return (
 </div>
 
 <footer>
-    <h3>Find me here<hr/></h3>
+    <h2>Find me here</h2>
     <p>Madison College 1701 Wright St, Madison, WI 53704</p>
 
     <p><a href="tel:+16085144097">(608)-514-4097</a></p>
     <p><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a></p>
 
-    <h3>Store Hours<hr/></h3>
+    <h2>Store Hours</h2>
     <p>Mon-Fri: 9am-8pm</p>
     <p>Sat-Sun: 10am-7pm</p>
 
-    <h3>Add Me here</h3>
+    <h2>Add Me here</h2>
         <a href="https://www.instagram.com/"><img className="socialMedia" src="./instagram.svg" alt="Instagram Logo" target="blank"/></a>
         <a href="https://www.facebook.com/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
         <a href="https://www.twitter.com/"><img className="socialMedia" src="./twitter.svg" alt="Twitter Logo" target="blank"/></a>
         <a href="https://www.youtube.com/"><img className="socialMedia" src="./youtube.svg" alt="Youtube Logo" target="blank"/></a>
-        <i>Sam Paugel 2021©</i>
+        <i>Sam Paugel 2022©</i>
 </footer>
     <a href="#mainContent" className="skipLink"></a>
 </div>

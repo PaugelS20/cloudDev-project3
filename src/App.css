@@ -6,6 +6,7 @@
 }
 @media only screen and (max-width: 600px) {
     .mainContentPics {
+        display: flex;
         flex-wrap: wrap;
         /* width: 100%; */
     }
@@ -14,10 +15,14 @@
 }
 .socialMedia {
     max-width: 100%;
+    padding: .3em;
     filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
     /* #970C10; */
 }
 .mainContentPics {
+    max-width: 100%;
+}
+#mainLogo {
     max-width: 100%;
 }
 #mash {
