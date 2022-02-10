@@ -21,7 +21,7 @@ function App() { return (
         I sincerely hope you enjoy our store and leave us a review.</p>
         <img class="mainContentPics" id="bwGuitar" src="./bw-guitar.png" alt="Black and White guitar"/>
         <img class="mainContentPics" id="eltonJohn" src="./elton-john.png" alt="Elton John"/>
-        <img class="mainContentPics" id="mashGroupPic" src=".images/Mash-group-picture.png" alt="Mash Group Picture"/>
+        <img class="mainContentPics" id="mashGroupPic" src="../Mash-group-picture.png" alt="Mash Group Picture"/>
     </section>
 
     <section>
