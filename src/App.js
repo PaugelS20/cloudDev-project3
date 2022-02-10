@@ -1,4 +1,4 @@
-
+import "App.css";
 function App() { return (
 <div className="App">
 <div className="container">
@@ -21,7 +21,9 @@ function App() { return (
     </section>
 
     <section>
-        <p className="width">You can find out more about us on our About us page. There we go indepth about who we are, our mission and what makes us groove.Like M*A*S*H is my personal groove it's my favorite TV show!</p>
+        <p className="width">You can find out more about us on our About us page.
+        There we go in-depth about who we are, our mission and what makes us groove.
+        Like M*A*S*H is my personal groove it's my favorite TV show!</p>
         <img id="mash" src="./MASH.png" alt="mash actors wayne rogers and alan alda"/>
     </section>
     </main>
