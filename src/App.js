@@ -19,7 +19,7 @@ function App() { return (
         <p className="width">This is our music store we have everything from cds, vinyl, mp3s and more!
         There is so much to choose from. We also have everything priced according to value or use.
         I sincerely hope you enjoy our store and leave us a review.</p>
-        <img class="mainContentPics" id="bwGuitar" src="./bw-guitar.png" alt="Black and White guitar"/>
+        <img class="mainContentPics" id="bwGuitar" src=".images/bw-guitar.png" alt="Black and White guitar"/>
         <img class="mainContentPics" id="eltonJohn" src=".images/elton-john.png" alt="Elton John"/>
         <img class="mainContentPics" id="mashGroupPic" src="./images/Mash-group-picture.png" alt="Mash Group Picture"/>
     </section>
@@ -28,7 +28,7 @@ function App() { return (
         <p className="width">You can find out more about us on our About us page.
         There we go in-depth about who we are, our mission and what makes us groove.
         Like M*A*S*H is my personal groove it's my favorite TV show!</p>
-        <img id="mash" src="./MASH.png" alt="mash actors wayne rogers and alan alda"/>
+        <img id="mash" src=".images/MASH.png" alt="mash actors wayne rogers and alan alda"/>
     </section>
     </main>
   </body>
