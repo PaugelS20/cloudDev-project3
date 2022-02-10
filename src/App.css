@@ -20,7 +20,8 @@
     /* #970C10; */
 }
 .mainContentPics {
-    max-width: 100%;
+    max-width: 50%;
+    padding: .2em;
 }
 #mainLogo {
     max-width: 100%;
