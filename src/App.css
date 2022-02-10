@@ -31,12 +31,12 @@ hr {
     border: none;
     height: 2px;
 }
-@font-face {
+/* @font-face {
     font-family: 'magazine';
     src:  url('magazine.woff2'), format('woff2');
     font-family: 'Helvetica';
     src:  url('Helvetica.woff2'), format('woff2');
-}
+} */
 body, input, textarea, select, button {
     -webkit-font-smoothing: antialiased;
 }
