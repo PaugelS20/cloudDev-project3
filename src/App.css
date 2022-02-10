@@ -5,9 +5,9 @@
     row-gap: 1em;
 }
 @media only screen and (max-width: 600px) {
-  #tripple {
-    flex-wrap: wrap;
-  }
+    #tripple {
+        flex-wrap: wrap;
+    }
 }
 .InstaHandle {
     width: 2%;
