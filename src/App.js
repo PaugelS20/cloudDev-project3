@@ -19,9 +19,9 @@ function App() { return (
         <p className="width">This is our music store we have everything from cds, vinyl, mp3s and more!
         There is so much to choose from. We also have everything priced according to value or use.
         I sincerely hope you enjoy our store and leave us a review.</p>
-        <img class="mainContentPics" id="bwGuitar" src="./bw-guitar.png" alt="Elton John"/>
+        <img class="mainContentPics" id="bwGuitar" src="./bw-guitar.png" alt="Black and White guitar"/>
         <img class="mainContentPics" id="eltonJohn" src="./elton-john.png" alt="Elton John"/>
-        <img class="mainContentPics" id="mashGroupPic" src="./mash-group-picture.png" alt="Elton John"/>
+        <img class="mainContentPics" id="mashGroupPic" src="./mash-group-picture.png" alt="Mash Group Picture"/>
     </section>
 
     <section>
