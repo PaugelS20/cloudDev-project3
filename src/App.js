@@ -54,6 +54,5 @@ function App() { return (
 </footer>
     <a href="#mainContent" className="skipLink"></a>
 </div>
-  );
-}
+);}
 export default App;

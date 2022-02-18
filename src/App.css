@@ -4,11 +4,10 @@
     flex-flow: column;
     row-gap: 1em;
 }
-@media only screen and (max-width: 600px) {
+@media screen (max-width: 600px) {
     .mainContentPics {
         display: flex;
         flex-wrap: wrap;
-        
     }
 }.width {
     padding: 41px;
