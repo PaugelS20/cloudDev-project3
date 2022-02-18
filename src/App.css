@@ -4,7 +4,7 @@
     flex-flow: column;
     row-gap: 1em;
 }
-@media screen (max-width: 881px) {
+@media only screen and (max-width: 881px) {
     .mainContentPics {
         display: flex;
         flex-wrap: wrap;
