@@ -4,7 +4,7 @@
     flex-flow: column;
     row-gap: 1em;
 }
-@media screen (max-width: 600px) {
+@media screen (max-width: 881px) {
     .mainContentPics {
         display: flex;
         flex-wrap: wrap;
@@ -24,7 +24,7 @@
     /* #970C10; */
 }
 .mainContentPics {
-    max-width: 50%;
+    max-width: 70%;
     padding: .2em;
 }
 #mainLogo {

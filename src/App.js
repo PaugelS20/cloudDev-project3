@@ -46,8 +46,8 @@ function App() { return (
     <p>Sat-Sun: 10am-7pm</p>
 
     <h2>Add Me here</h2>
-        <a href="https://www.instagram.com/"><img className="socialMedia" src="./instagram.svg" alt="Instagram Logo" target="blank"/></a>
-        <a href="https://www.facebook.com/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
+        <a href="https://www.instagram.com/paugs17/"><img className="socialMedia" src="./instagram.svg" alt="Instagram Logo" target="blank"/></a>
+        <a href="https://www.facebook.com/sam.paugel.3/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
         <a href="https://www.twitter.com/"><img className="socialMedia" src="./twitter.svg" alt="Twitter Logo" target="blank"/></a>
         <a href="https://www.youtube.com/"><img className="socialMedia" src="./youtube.svg" alt="Youtube Logo" target="blank"/></a>
         <i>Sam Paugel 2022©</i>
