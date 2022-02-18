@@ -8,6 +8,11 @@
     .mainContentPics {
         display: flex;
         flex-wrap: wrap;
+        max-width: 70%;
+    }
+    #mash {
+        max-width: 70%;
+        padding-bottom: 20px;
     }
 }.width {
     padding: 41px;
