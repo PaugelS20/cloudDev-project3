@@ -30,7 +30,7 @@
     }
 }
 .socialMedia {
-    width: 100%;
+    width: 100%;;
     padding: .3em;
     max-width: 1.5em;
     filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
