@@ -8,12 +8,19 @@
     .mainContentPics {
         width: 100%;
         max-width: 20em;
+        padding: .2em;
         flex-wrap: wrap;
     }
     #mash {
         width: 100%;
         max-width: 20em;
         padding-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 679px) {
+    #eltonJohn {
+        width: 100%;
+        max-width: 20.7em;
     }
 }
 /* .width {
@@ -26,13 +33,9 @@
     filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
     /* #970C10; */
 }
-.mainContentPics {
-    width: 100%;
-    max-width: 20em;
-    padding: .2em;
-}
 #mainLogo {
-    max-width: 100%;
+    max-width: 22em;
+    width: 100%;
 }
 hr {
     background-color: black;
@@ -45,6 +48,10 @@ hr {
     font-family: "Helvetica";
     src:  url("Helvetica.woff2"), format("woff2");
 } */
+i {
+    display: block;
+    padding-top: 1em;
+}
 body, input, textarea, select, button {
     -webkit-font-smoothing: antialiased;
 }
