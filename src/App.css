@@ -4,7 +4,7 @@
     flex-flow: column;
     row-gap: 1em; */
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 801px) {
     img {
         width: 100%;
     }
@@ -15,7 +15,6 @@
     }
     #mash {
         max-width: 20em;
-        padding: 2em;
         padding-right: .9em;
         padding-left: .9em;
         padding-bottom: .9em;
@@ -32,7 +31,9 @@
     }
     #mash {
         max-width: 20em;
-        padding: 0em,.9em,.9em,.9em;
+        padding-right: .9em;
+        padding-left: .9em;
+        padding-bottom: .9em;
     }
     .socialMedia {
         width: 100%;
