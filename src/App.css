@@ -17,9 +17,9 @@
         padding-bottom: 20px;
     }
 }
-.width {
+/* .width {
     padding: 41px;
-}
+} */
 .socialMedia {
     max-width: 100%;
     padding: .3em;
@@ -34,11 +34,7 @@
 #mainLogo {
     max-width: 100%;
 }
-#mash {
-    width: 100%;
-    max-width: 20em;
-    padding-bottom: 20px;
-}
+
 hr {
     background-color: black;
     border: none;
