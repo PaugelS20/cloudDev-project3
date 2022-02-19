@@ -50,7 +50,7 @@ function App() { return (
         <a href="https://www.facebook.com/sam.paugel.3/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
         <a href="https://www.twitter.com/"><img className="socialMedia" src="./twitter.svg" alt="Twitter Logo" target="blank"/></a>
         <a href="https://www.youtube.com/"><img className="socialMedia" src="./youtube.svg" alt="Youtube Logo" target="blank"/></a>
-        <i>Sam Paugel 2022©</i>
+        <i>Developed by Sam Paugel 2022©</i>
 </footer>
     <a href="#mainContent" className="skipLink"></a>
 </div>
