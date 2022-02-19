@@ -4,11 +4,10 @@
     flex-flow: column;
     row-gap: 1em;
 }
-@media only screen and (max-width: 800'px) {
+@media only screen and (max-width: 800px) {
     .mainContentPics {
         width: 100%;
         max-width: 20em;
-        display: flex;
         flex-wrap: wrap;
     }
     #mash {
@@ -21,7 +20,8 @@
     padding: 41px;
 } */
 .socialMedia {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1.5em;
     padding: .3em;
     filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
     /* #970C10; */
@@ -34,17 +34,16 @@
 #mainLogo {
     max-width: 100%;
 }
-
 hr {
     background-color: black;
     border: none;
     height: 2px;
 }
 /* @font-face {
-    font-family: 'magazine';
-    src:  url('magazine.woff2'), format('woff2');
-    font-family: 'Helvetica';
-    src:  url('Helvetica.woff2'), format('woff2');
+    font-family: "magazine";
+    src:  url(magazine.woff2"), format("woff2");
+    font-family: "Helvetica";
+    src:  url("Helvetica.woff2"), format("woff2");
 } */
 body, input, textarea, select, button {
     -webkit-font-smoothing: antialiased;
