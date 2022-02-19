@@ -1,8 +1,8 @@
 /* Sam Paugel 2021 */
 .container {
-    display: flex;
+    /* display: flex;
     flex-flow: column;
-    row-gap: 1em;
+    row-gap: 1em; */
 }
 @media only screen and (max-width: 800px) {
     .mainContentPics {
