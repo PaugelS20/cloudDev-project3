@@ -17,15 +17,6 @@
         padding: 0em,.9em,.9em,.9em;
     }
 }
-/* @media only screen and (min-width: 679px) {
-    #eltonJohn {
-        width: 100%;
-        max-width: 20.7em;
-    }
-} */
-/* .width {
-    padding: 41px;
-} */
 .socialMedia {
     width: 100%;
     padding: .3em;
@@ -42,12 +33,7 @@ hr {
     border: none;
     height: 2px;
 }
-/* @font-face {
-    font-family: "magazine";
-    src:  url(magazine.woff2"), format("woff2");
-    font-family: "Helvetica";
-    src:  url("Helvetica.woff2"), format("woff2");
-} */
+
 i {
     display: block;
     padding-top: 1em;
@@ -98,8 +84,6 @@ nav ul {
 nav li {
     display: inline-block;
     padding: 0.5em;
-    /* background-color: #738580;
-    border-radius: 5px; */
 }
 /* Link Styles */
 a:link {
