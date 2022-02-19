@@ -29,14 +29,15 @@
         max-width: 20em;
         padding: 0em,.9em,.9em,.9em;
     }
+    .socialMedia {
+        width: 100%;
+        padding: .3em;
+        max-width: 1.5em;
+        filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
+        /* #970C10; */
+    }
 }
-.socialMedia {
-    width: 100%;
-    padding: .3em;
-    max-width: 1.5em;
-    filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
-    /* #970C10; */
-}
+
 #mainLogo {
     max-width: 22em;
     width: 100%;
