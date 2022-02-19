@@ -14,7 +14,7 @@
     #mash {
         width: 100%;
         max-width: 20em;
-        padding-bottom: 20px;
+        padding: 0em,.9em,.9em,.9em;
     }
 }
 /* @media only screen and (min-width: 679px) {
