@@ -36,6 +36,7 @@
     filter: invert(19%) sepia(36%) saturate(5892%) hue-rotate(343deg) brightness(74%) contrast(110%);
     /* #970C10; */
 }
+
 #mainLogo {
     max-width: 22em;
     width: 100%;
