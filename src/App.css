@@ -6,12 +6,14 @@
 }
 @media only screen and (max-width: 800'px) {
     .mainContentPics {
-        max-width: 70%;
+        width: 100%;
+        max-width: 20em;
         display: flex;
         flex-wrap: wrap;
     }
     #mash {
-        max-width: 70%;
+        width: 100%;
+        max-width: 20em;
         padding-bottom: 20px;
     }
 }
@@ -25,14 +27,16 @@
     /* #970C10; */
 }
 .mainContentPics {
-    max-width: 70%;
+    width: 100%;
+    max-width: 20em;
     padding: .2em;
 }
 #mainLogo {
     max-width: 100%;
 }
 #mash {
-    max-width: 70%;
+    width: 100%;
+    max-width: 20em;
     padding-bottom: 20px;
 }
 hr {
