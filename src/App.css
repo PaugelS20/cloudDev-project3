@@ -5,27 +5,29 @@
     row-gap: 1em; */
 }
 @media only screen and (min-width: 800px) {
-    .mainContentPics {
+    img {
         width: 100%;
+    }
+    .mainContentPics {
         max-width: 20em;
         padding: .2em;
         flex-wrap: wrap;
     }
     #mash {
-        width: 100%;
         max-width: 20em;
         padding: 0em,.9em,.9em,.9em;
     }
 }
 @media only screen and (max-width: 800px) {
-    .mainContentPics {
+    img {
         width: 100%;
+    }
+    .mainContentPics {
         max-width: 20em;
         padding: .2em;
         flex-wrap: wrap;
     }
     #mash {
-        width: 100%;
         max-width: 20em;
         padding: 0em,.9em,.9em,.9em;
     }
@@ -37,7 +39,6 @@
         /* #970C10; */
     }
 }
-
 #mainLogo {
     max-width: 22em;
     width: 100%;
