@@ -13,7 +13,7 @@ function App() { return (
             </main>
 
             <footer>
-                <h2>Find me here</h2>
+                <h2>Contact Me</h2>
                 <p>Madison College 1701 Wright St, Madison, WI 53704</p>
                 <p><a href="tel:+16085144097">(608)-514-4097</a></p>
                 <p><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a></p>
