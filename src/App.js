@@ -1,32 +1,30 @@
-import './Master.css';
-    import Grid from './Grid';
-function App() { return (
+import './Master.css'; import Grid from './Grid'; function App() { return (
 <div className="App">
-<Grid />
-<div className="container">
-  <body>
-      <header>
+    <Grid />
+    <div className="container">
 
-      </header>
+        <body>
+            <header>
 
-<main>
-    <h1 id="mainContent">Sam Paugel</h1>
-    </main>
+            </header>
 
-<footer>
-    <h2>Find me here</h2>
-        <p>Madison College 1701 Wright St, Madison, WI 53704</p>
-        <p><a href="tel:+16085144097">(608)-514-4097</a></p>
-        <p><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a></p>
+            <main>
+                <h1 id="mainContent">Sam Paugel</h1>
+            </main>
 
-    <h2>Add Me here</h2>
-        <a href="https://www.instagram.com/paugs17/"><img className="socialMedia" src="./instagram.svg" alt="Instagram Logo" target="blank"/></a>
-        <a href="https://www.facebook.com/sam.paugel.3/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
-        <i>Developed by Sam Paugel 2022©</i>
-</footer>
-</body>
-<a href="#mainContent" className="skipLink"></a>
+            <footer>
+                <h2>Find me here</h2>
+                <p>Madison College 1701 Wright St, Madison, WI 53704</p>
+                <p><a href="tel:+16085144097">(608)-514-4097</a></p>
+                <p><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a></p>
+
+                <h2>Add Me here</h2>
+                <a href="https://www.instagram.com/paugs17/"><img className="socialMedia" src="./instagram.svg" alt="Instagram Logo" target="blank" /></a>
+                <a href="https://www.facebook.com/sam.paugel.3/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank" /></a>
+                <i>Developed by Sam Paugel 2022©</i>
+            </footer>
+        </body>
+        <a href="#mainContent" className="skipLink"></a>
+    </div>
 </div>
-</div>
-);}
-export default App;
+);} export default App;
