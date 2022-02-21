@@ -1,4 +1,5 @@
-import './Master.css'; import Grid from './Grid'; function App() { return (
+import './Master.css';
+function App() { return (
 <div className="App">
     <Grid />
     <div className="container">
