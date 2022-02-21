@@ -1,7 +1,7 @@
 import './Master.css';
 function App() { return (
 <div className="App">
-    <div className="container">
+    <div className="grid-container">
 
         <body>
             <header>
