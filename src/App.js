@@ -1,3 +1,4 @@
+import React from 'react';
 import './Master.css';
 function App() { return (
 <div className="App">
@@ -9,7 +10,15 @@ function App() { return (
             </header>
 
             <main>
-            <h2></h2>
+
+
+
+
+
+
+
+
+
             </main>
 
             <footer>
