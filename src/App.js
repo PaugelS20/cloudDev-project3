@@ -4,11 +4,11 @@ function App() { return (
 <div className="container">
   <body>
       <header>
-      
+
       </header>
 
 <main>
-    <h1 id="mainContent" id="storeheader">Sam Paugel</h1>
+    <h1 id="mainContent">Sam Paugel</h1>
     </main>
   </body>
 </div>
