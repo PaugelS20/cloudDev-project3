@@ -2,6 +2,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
+
 }
 hr {
     background-color: black;
@@ -26,9 +27,6 @@ header h1 {
     border-radius: 3px 0px 0px 3px;
     background-color: #970C10;
     color: #ffffff;
-}
-h1 {
-    text-align: center;
 }
 /* Tab through Accessability */
 ul li:hover ul, ul li ul:hover, ul li:focus-within ul {
