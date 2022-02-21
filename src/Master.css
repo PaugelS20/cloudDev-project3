@@ -1,7 +1,8 @@
 /* Sam Paugel 2021 */
 .container {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-gap: 1rem;
 }
 hr {
     background-color: black;
