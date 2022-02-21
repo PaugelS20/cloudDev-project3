@@ -11,7 +11,7 @@ function App() { return (
     <h1 id="mainContent">Sam Paugel</h1>
     </main>
   </body>
-</div>
+
 
 <footer>
     <h2>Find me here</h2>
@@ -24,6 +24,7 @@ function App() { return (
         <a href="https://www.facebook.com/sam.paugel.3/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
         <i>Developed by Sam Paugel 2022©</i>
 </footer>
+</div>
     <a href="#mainContent" className="skipLink"></a>
 </div>
 );}
