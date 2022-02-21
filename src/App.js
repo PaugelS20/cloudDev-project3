@@ -1,6 +1,8 @@
 import './Master.css';
+    import Grid from './Grid';
 function App() { return (
 <div className="App">
+<Grid />
 <div className="container">
   <body>
       <header>
@@ -10,8 +12,6 @@ function App() { return (
 <main>
     <h1 id="mainContent">Sam Paugel</h1>
     </main>
-  </body>
-
 
 <footer>
     <h2>Find me here</h2>
@@ -24,8 +24,9 @@ function App() { return (
         <a href="https://www.facebook.com/sam.paugel.3/"><img className="socialMedia" src="./facebook.svg" alt="Facebook Logo" target="blank"/></a>
         <i>Developed by Sam Paugel 2022©</i>
 </footer>
+</body>
+<a href="#mainContent" className="skipLink"></a>
 </div>
-    <a href="#mainContent" className="skipLink"></a>
 </div>
 );}
 export default App;
