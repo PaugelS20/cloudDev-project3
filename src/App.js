@@ -17,7 +17,7 @@ function App() { return (
     <h2>Find me here</h2>
         <p>Madison College 1701 Wright St, Madison, WI 53704</p>
         <p><a href="tel:+16085144097">(608)-514-4097</a></p>
-        <p><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a></p>=
+        <p><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a></p>
 
     <h2>Add Me here</h2>
         <a href="https://www.instagram.com/paugs17/"><img className="socialMedia" src="./instagram.svg" alt="Instagram Logo" target="blank"/></a>
