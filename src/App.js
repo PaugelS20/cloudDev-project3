@@ -5,11 +5,11 @@ function App() { return (
 
         <body>
             <header>
-
+            <h1 id="mainContent">Sam Paugel</h1>
             </header>
 
             <main>
-                <h1 id="mainContent">Sam Paugel</h1>
+            <h2></h2>
             </main>
 
             <footer>
