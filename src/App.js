@@ -9,7 +9,7 @@ function App() { return (
             </header>
 
             <main>
-                <h1 id="mainContent">Sam Paugel</h1>
+                <h1 id="mainContent">SamPaugel</h1>
             </main>
 
             <footer>
