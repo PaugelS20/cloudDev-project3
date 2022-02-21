@@ -20,7 +20,6 @@ function App() { return (
 
 
             </main>
-
             <footer>
                 <h2>Contact Me</h2>
                 <p>Madison College 1701 Wright St, Madison, WI 53704</p>
