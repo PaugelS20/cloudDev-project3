@@ -4,6 +4,9 @@
     grid-template-columns: 2fr 1fr 1fr;
     grid-column-gap: 10px;
 }
+socialMedia {
+    padding: 0.5em;
+}
 hr {
     background-color: black;
     border: none;
