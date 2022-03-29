@@ -1,7 +1,7 @@
-import Navbar from 'Navbar';
+import Navbar from 'Navbar.js';
 import React from 'react';
 import './Master.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 function App() { return (
 <div className="App">
     <div className="grid-container">
