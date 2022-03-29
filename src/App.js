@@ -1,13 +1,18 @@
+import Navbar from 'Navbar';
 import React from 'react';
 import './Master.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 function App() { return (
 <div className="App">
     <div className="grid-container">
 
-        <body>
-            <header>
+    <body>
+        <header>
             <h1 id="mainContent">Sam Paugel</h1>
-            </header>
+                <Router>
+                    <Navbar></Navbar>
+                </Router>
+        </header>
 
             <main>
 
