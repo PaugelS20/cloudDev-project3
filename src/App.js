@@ -1,7 +1,7 @@
 import Navbar from './Navbar.js';
 import React from 'react';
 import './Master.css';
-import {BrowserRouter as Router} from 'react-router-dom';
+/*import {BrowserRouter as Router} from 'react-router-dom';*/
 function App() { return (
 <div className="App">
     <div className="grid-container">
@@ -9,19 +9,25 @@ function App() { return (
     <body>
         <header>
             <h1 id="mainContent">Sam Paugel</h1>
-                <Router>
-                    <Navbar></Navbar>
-                </Router>
+            <Router>
+                <Navbar />
+            </Router>
+            //     <Switch>
+            //         <Route path='/' exact component={Home} />
+            //         <Route path='/about' component={About} />
+            //         <Route path='/services' component={Services} />
+            //         <Route path='/contact' component={Contact} />
+            //         <Route path='/sign-up' component={SignUp} />
+            //     </Switch>
+            // </Router>
+
         </header>
 
             <main>
-
-
-
-
-
-
-
+            <div id="text">
+            <h1>GeeksforGeeks</h1>
+                <b>Hover over on the text</b>
+            </div>
 
 
             </main>

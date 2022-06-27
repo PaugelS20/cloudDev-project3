@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import '.Navbar.css';
+import './Master.css';
 import Dropdown from './Dropdown';
 
 function Navbar() {
@@ -10,8 +10,8 @@ function Navbar() {
     const handleClick = () => setClick(!click)
 
     return (
-            <nav className='navbar'>
-                <Link to='/' className='navbar-logo'></Link>
+            <nav className='Navbar'>
+                <Link to='/' className='Navbar-logo'></Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
