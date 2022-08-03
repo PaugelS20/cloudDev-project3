@@ -13,10 +13,9 @@ function App() { return (
         </header>
 
             <main>
-            <div id="text">
-            <h1>GeeksforGeeks</h1>
-                <b>Hover over on the text</b>
-            </div>
+
+            <h1><div id="text">S</div>am Paugel</h1>
+
 
 
             </main>
