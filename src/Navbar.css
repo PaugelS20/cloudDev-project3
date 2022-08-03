@@ -5,6 +5,13 @@ nav {
     height: 50px;
     background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
 }
+nav a {
+    transition: color 0.3s, #fb040c 0.3s;
+    transition-property: color, #fb040c;
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
 .list {
     /*list-style-type: none;
     height: 100%;
