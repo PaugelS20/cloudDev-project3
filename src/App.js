@@ -24,10 +24,10 @@ function App() { return (
         </header>
 
             <main>
-            <div id="text">
-            <h1>GeeksforGeeks</h1>
-                <b>Hover over on the text</b>
-            </div>
+            // <div id="text">
+            // <h1>GeeksforGeeks</h1>
+            //     <b>Hover over on the text</b>
+            // </div>
 
 
             </main>
