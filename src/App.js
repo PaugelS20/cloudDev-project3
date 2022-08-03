@@ -9,14 +9,14 @@ function App() { return (
     <body>
         <header>
             <h1 id="mainContent">Sam Paugel</h1>
-            
+            <Navbar/>
         </header>
 
             <main>
-            // <div id="text">
-            // <h1>GeeksforGeeks</h1>
-            //     <b>Hover over on the text</b>
-            // </div>
+            <div id="text">
+            <h1>GeeksforGeeks</h1>
+                <b>Hover over on the text</b>
+            </div>
 
 
             </main>
