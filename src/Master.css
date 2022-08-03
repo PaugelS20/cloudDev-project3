@@ -1,11 +1,13 @@
 /* Sam Paugel 2021 */
-.grid-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-column-gap: 10px;
+#container {
+    display: flex;
+    flex-direction: column;
 }
 .socialMedia {
     padding: 0.5em;
+}
+main {
+    margin: 0 auto;
 }
 hr {
     background-color: black;
@@ -35,6 +37,51 @@ header h1 {
 ul li:hover ul, ul li ul:hover, ul li:focus-within ul {
     display: block;
 }
+img {
+    width: 7rem;
+    height: auto;
+}
+span {
+    color:#fff;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.main-menu-top {
+    background: #000000;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+menu {
+    width: 13rem;
+    /*background-color: #181818;*/
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
 /* Main Content Link */
 .skipLink {
     position: absolute;
@@ -43,7 +90,6 @@ ul li:hover ul, ul li ul:hover, ul li:focus-within ul {
 .skipLink:focus, .skipLink:active {
     left: 0;
 }
-
 /* nav styles */
 p, nav {
     font-family: "Helvetica";
@@ -70,40 +116,44 @@ a:hover {
 /* Nav link Styles */
 nav a:link {
     text-decoration: none;
-    color: #000000;
+    color: #fff;
 }
 nav a:visited {
+    color: white;
+}
+/* nav a:visited {
     color: darkred;
+} */
+nav a:active {
+    color: #a71c1b; /*970C10*/
 }
 nav a:hover {
-    color: #000000;
-}
-nav a:active {
-    color: #970C10;
-}
-nav a::before {
-    content: "";
+    /* content: "";
     display: block;
     height:  3px;
     width: 0%;
     background-color: #444444;
     position: relative;
-    top: 1.5em;
-    transition: all ease-in-out 269ms;
+    top: 1.5em; */
+    /* #fb040c */
+    color: #a71c1b;
+    transition: color 0.3s;
+    transition-property: color;
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
 }
-nav a:hover::before {
+/* nav a:hover::before {
     width: 100%;
-}
-#storeheader {
-    font-size: 1.9em;
-}
+} */
 section {
+
     text-align: center;
 }
 /* link styles */
-a {
+/* a {
     color: blue;
-}
+} */
 footer {
     background-color: #738580;
     padding: 20px;
@@ -114,8 +164,7 @@ body {
     font-family: serif;
 }
 .text {
-    position: relative;
-    text-align: center;
+    display: flex;
 }
 .text:hover {
     animation: effect linear 1s;
