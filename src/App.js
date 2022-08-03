@@ -9,18 +9,7 @@ function App() { return (
     <body>
         <header>
             <h1 id="mainContent">Sam Paugel</h1>
-            <Router>
-                <Navbar/>
-            </Router>
-            /*{ //     <Switch>
-            //         <Route path='/' exact component={Home} />
-            //         <Route path='/about' component={About} />
-            //         <Route path='/services' component={Services} />
-            //         <Route path='/contact' component={Contact} />
-            //         <Route path='/sign-up' component={SignUp} />
-            //     </Switch>
-            // </Router> }*/
-
+            
         </header>
 
             <main>
