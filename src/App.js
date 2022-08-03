@@ -10,16 +10,16 @@ function App() { return (
         <header>
             <h1 id="mainContent">Sam Paugel</h1>
             <Router>
-                <Navbar />
+                <Navbar/>
             </Router>
-            {/* //     <Switch>
+            /*{ //     <Switch>
             //         <Route path='/' exact component={Home} />
             //         <Route path='/about' component={About} />
             //         <Route path='/services' component={Services} />
             //         <Route path='/contact' component={Contact} />
             //         <Route path='/sign-up' component={SignUp} />
             //     </Switch>
-            // </Router> */}
+            // </Router> }*/
 
         </header>
 

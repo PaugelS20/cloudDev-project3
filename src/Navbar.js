@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Master.css';
 import Dropdown from './Dropdown';
@@ -18,4 +17,3 @@ function Navbar() {
             </nav>
     );
 }
-export default Navbar;
