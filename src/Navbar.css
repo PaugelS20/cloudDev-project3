@@ -3,7 +3,7 @@ nav {
     top: 0;
     width: 100%;
     height: 50px;
-    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+    background: #181818;
 }
 nav a {
     transition: color 0.3s, #fb040c 0.3s;
