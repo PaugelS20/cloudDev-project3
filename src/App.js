@@ -14,9 +14,15 @@ function App() { return (
 
             <main>
 
-            <h1><div id="text">S</div>am Paugel</h1>
-
-
+            <h1><div class="text">S</div>
+            <div class="text">a</div>
+            <div class="text">m</div> 
+            <div class="text">P</div>
+            <div class="text">a</div>
+            <div class="text">u</div>
+            <div class="text">g</div>
+            <div class="text">e</div>
+            <div class="text">l</div></h1>
 
             </main>
             <footer>
