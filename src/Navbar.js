@@ -6,6 +6,7 @@ import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiIndeed } from "react-icons/si";
 import { Squash as Hamburger } from "hamburger-react";
 
+function App() {
   return (
     <menu className="main-menu">
       <div className="hamburger-react" role={button}>
@@ -34,7 +35,7 @@ import { Squash as Hamburger } from "hamburger-react";
       </ul>
     </menu>
   );
-
+}
 //
 //<button onClick={toggleNav} className="btn"><img src="images/menu-icon.svg" alt="Menu Icon"/></button>
 {
