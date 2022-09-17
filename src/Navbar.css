@@ -145,10 +145,10 @@ a {
   height: 20rem;
 }
 .social svg path {
-    -webkit-transition: fill 0.3s;
-    -o-transition: fill 0.3s;
-    transition: fill 0.3s;
-    fill: #909096;
+  -webkit-transition: fill 0.3s;
+  -o-transition: fill 0.3s;
+  transition: fill 0.3s;
+  fill: #909096;
 }
 .social svg {
   width: 1.5rem;
@@ -222,6 +222,11 @@ a {
   }
 }
 @media screen and (max-width: 1300px) {
+  .main-menu .main-menu__top {
+    padding-top: 6rem;
+  }
+}
+@media screen and (max-width: 1300px) {
   .mobileopen .main-menu {
     -webkit-transition: visibility 0s 0s, z-index 0s 0s;
     -o-transition: visibility 0s 0s, z-index 0s 0s;
@@ -230,17 +235,6 @@ a {
     opacity: 1;
   }
 }
-@media screen and (max-width: 1300px) {
-  .main-menu .main-menu__top {
-    padding-top: 6rem;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .mobileopen .main-menu > * {
-    opacity: 1;
-  }
-}
-
 /* 
 .btn {
     display: none;

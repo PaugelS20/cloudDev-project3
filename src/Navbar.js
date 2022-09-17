@@ -4,30 +4,13 @@ import "./Navbar.css";
 import { IconContext } from "react-icons";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiIndeed } from "react-icons/si";
-
-
-
-export default function Navbar() {
-  const [toggleMenu, setToggleMenu] = useState(false);
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const toggleNav = () => {
-    setToggleMenu(!toggleMenu);
-  };
-  useEffect(() => {
-    const changeWidth = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", changeWidth);
-    return () => {
-      window.removeEventListener("resize", changeWidth);
-    };
-  }, []);
+import { Squash as Hamburger } from "hamburger-react";
 
   return (
     <menu className="main-menu">
-      {/* (toggleNav || screenWidth 768px)
-      { */}
-      <a onClick={toggleMenu} class="" rel="home"></a>
+      <div className="hamburger-react" role={button}>
+        
+      </div>
       <div className="main-menu__top">
         <a class="logoLink" href="www.sampaugel.com">
           <img id="paugel-logo" src="images/logo.png" alt="Paugel Logo" />
@@ -51,7 +34,7 @@ export default function Navbar() {
       </ul>
     </menu>
   );
-}
+
 //
 //<button onClick={toggleNav} className="btn"><img src="images/menu-icon.svg" alt="Menu Icon"/></button>
 {
