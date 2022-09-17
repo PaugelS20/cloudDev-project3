@@ -1,9 +1,10 @@
 /* Sam Paugel 2022© */
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+import { IconContext } from "react-icons";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiIndeed } from "react-icons/si";
-import { IconContext } from "react-icons";
+
 
 
 export default function Navbar() {
