@@ -223,13 +223,13 @@ menu {
   padding: 0.5em;
 } */
 /* Link Styles */
-a:link {
+/* a:link {
   text-decoration: none;
-  color: #970c10; /* #ff0000 */
-}
-a:hover {
+  color: #970c10; /* #ff0000 
+} */
+/* a:hover {
   color: #000000;
-}
+} */
 /* Nav link Styles */
 /* nav a:link {
   text-decoration: none;
