@@ -6,7 +6,7 @@ import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiIndeed } from "react-icons/si";
 import { Squash as Hamburger } from "hamburger-react";
 
-function App() {
+export default function Navbar() {
   return (
     <menu className="main-menu">
       <div className="hamburger-react" role={button}>
