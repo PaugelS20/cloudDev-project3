@@ -10,6 +10,7 @@ function App() {
       <header id="mainContent"></header>
       <body>
         <Navbar />
+        <Menu />
 
         <div>
           <div className="text-area">
