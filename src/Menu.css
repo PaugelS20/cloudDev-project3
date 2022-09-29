@@ -7,10 +7,4 @@
 		display: none;
 	}
 }
-/* @media screen and (max-width: 768px) {
-	.main-menu {
-		transition: visibility 0s 0s, z-index 0s 0s;
-		z-index: 99;
-		opacity: 1;
-	}
-} */
+
