@@ -226,7 +226,7 @@ a {
     padding-top: 6rem;
   }
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .mobileopen .main-menu {
     -webkit-transition: visibility 0s 0s, z-index 0s 0s;
     -o-transition: visibility 0s 0s, z-index 0s 0s;
@@ -234,7 +234,7 @@ a {
     z-index: 99;
     opacity: 1;
   }
-}
+} */
 /* 
 .btn {
     display: none;
