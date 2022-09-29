@@ -153,8 +153,6 @@ a {
     border-radius: 3px;
   }
   .main-menu {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     position: fixed;
     z-index: -5;
@@ -164,8 +162,6 @@ a {
     top: 0;
     width: 100%;
     opacity: 0;
-    -webkit-transition: opacity 0s 0.4s, z-index 0s 0.7s;
-    -o-transition: opacity 0s 0.4s, z-index 0s 0.7s;
     transition: opacity 0s 0.4s, z-index 0s 0.7s;
   }
 }
