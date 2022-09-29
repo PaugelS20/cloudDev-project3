@@ -139,19 +139,6 @@ a {
     margin-right: 0px;
     padding: 20px 0;
   }
-  .btn {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 4rem;
-    height: 4rem;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 3px;
-  }
   .main-menu {
     align-items: center;
     position: fixed;
