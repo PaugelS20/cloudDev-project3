@@ -152,7 +152,7 @@ a {
     justify-content: center;
     border-radius: 3px;
   }
-  .main-menu {
+  /* .main-menu {
     align-items: center;
     position: fixed;
     z-index: -5;
@@ -163,7 +163,7 @@ a {
     width: 100%;
     opacity: 0;
     transition: opacity 0s 0.4s, z-index 0s 0.7s;
-  }
+  } */
 }
 @media screen and (max-width: 768px) {
   .main-menu .main-menu__top {
