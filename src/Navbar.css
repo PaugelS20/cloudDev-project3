@@ -166,7 +166,7 @@ a {
     transition: fill 0.3s;
 } */
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 768px) {
   .list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -221,12 +221,12 @@ a {
     transition: opacity 0s 0.4s, z-index 0s 0.7s;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 768px) {
   .main-menu .main-menu__top {
     padding-top: 6rem;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 768px) {
   .mobileopen .main-menu {
     -webkit-transition: visibility 0s 0s, z-index 0s 0s;
     -o-transition: visibility 0s 0s, z-index 0s 0s;

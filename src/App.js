@@ -6,12 +6,10 @@ import "./Master.css";
 function App() {
   return (
     <div className="App">
-      {/* <div id="container"> */}
       <header id="mainContent"></header>
       <body>
         <Navbar />
         <Menu />
-
         <div>
           <div className="text-area">
             <h2 aria-label="Me Myself and I">Me Myself and I</h2>

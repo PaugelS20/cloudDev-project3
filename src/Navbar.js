@@ -9,9 +9,6 @@ import { Squash as Hamburger } from "hamburger-react";
 export default function Navbar() {
   return (
     <menu className="main-menu">
-      <div className="hamburger-react" role={button}>
-        
-      </div>
       <div className="main-menu__top">
         <a class="logoLink" href="www.sampaugel.com">
           <img id="paugel-logo" src="images/logo.png" alt="Paugel Logo" />
