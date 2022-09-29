@@ -7,7 +7,7 @@ import { Squash as Hamburger } from "hamburger-react";
 export default function Menu() {
   const [open, setShow] = useState(false);
   return (
-    <div className="menu">
+    <div className="hamburger">
         {open?<Navbar />:null}
         <Hamburger onClick={() => setShow(!open) }/>
     </div>
