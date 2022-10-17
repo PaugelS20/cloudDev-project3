@@ -13,7 +13,7 @@ function App() {
         <Menu />
         <div>
           <div className="text-area">
-            <h2 aria-label="Me Myself and I">Me Myself and I</h2>
+            <h2 aria-label="Me Myself and I">Hi,I'm Sam, a Frontend Developer</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Blanditiis illum reiciendis animi ad voluptatum. Exercitationem
