@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Menu />
           <div className="text-area">
-           <h2 aria-label="Hi,I'm Sam, a Frontend Developer" class="animate__animated animate__bounce" class="h2Text">Hi, I'm Sam, a Frontend Developer</h2> */}
+           <h2 aria-label="Hi,I'm Sam, a Frontend Developer" class="animate__animated animate__bounce">Hi, I'm Sam, a Frontend Developer</h2> */}
             <p>
               
             </p>
