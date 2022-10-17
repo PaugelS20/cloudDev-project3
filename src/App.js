@@ -9,17 +9,10 @@ function App() {
 	return (
 		
 		<div className="App">
-			<header id="mainContent"></header>
-			<body>
+		
 				<Navbar />
 				<Menu />
 				<mainContent/>
-				<div className="text-area">
-					<h2 aria-label="Hi,I'm Sam, a Frontend Developer">Hi,I'm Sam, a Frontend Developer</h2>
-					<p></p>
-				</div>
-			</body>
-			<a href="#mainContent" className="skipLink"></a>
 		</div>
 	);
 }
