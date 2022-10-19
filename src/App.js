@@ -2,14 +2,26 @@
 import React from "react";
 import Menu from "./Menu.js";
 import Navbar from "./Navbar.js";
+import About from "./about.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./Master.css";
+import about from "./about.js";
 
 function App() {
 	return (
 		<div className="App">
 			<header id="mainContent"></header>
 			<body>
-				<Navbar />
+				<Route>
+					<Routes>
+						<Navbar />
+						{/* <Route path="/index.js" element={<About />} /> */}
+						<Route path="/About" element={<About />} />
+						<Route path="/Skills" element={<Skills />} />
+						<Route path="/Contact" element={<Contact />} />
+					</Routes>
+				</Route>
+
 				<Menu />
 				<div className="text-area">
 					<h2

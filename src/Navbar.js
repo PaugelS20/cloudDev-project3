@@ -4,7 +4,6 @@ import "./Navbar.css";
 import { IconContext } from "react-icons";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiIndeed } from "react-icons/si";
-import { BrowserRouter as Router, Switch,Route, Redirect,} from "react-router-dom";
 import { Link } from 'react-router-dom';
 
 
@@ -19,9 +18,9 @@ export default function Navbar() {
         <span>Front End Developer</span>
       </div>
       <nav className="main-menu_nav">
-      	<Link to="/about.html">About</Link>
-      	<Link to="/skills.html">Skils</Link>
-      	<Link to="/contact.html">Contact me</Link>
+      	<Link to="/about">About</Link>
+      	<Link to="/skills">Skils</Link>
+      	<Link to="/contact">Contact me</Link>
       </nav>
 
       <ul className="social">
