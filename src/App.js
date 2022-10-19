@@ -3,9 +3,10 @@ import React from "react";
 import Menu from "./Menu.js";
 import Navbar from "./Navbar.js";
 import About from "./about.js";
+import Contact from "./contact.js";
+import Skills from "./skils.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./Master.css";
-import about from "./about.js";
 
 function App() {
 	return (
