@@ -4,6 +4,7 @@ import "./Navbar.css";
 import { IconContext } from "react-icons";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiIndeed } from "react-icons/si";
+import { Link } from 'react-router';
 
 export default function Navbar() {
   return (
@@ -16,9 +17,9 @@ export default function Navbar() {
         <span>Front End Developer</span>
       </div>
       <nav className="main-menu_nav">
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="contact.html">Contact</a>
+      <Link to="/about.html">About</Link></li>
+      <Link to="/skills.html">Skils</Link></li>
+      <Link to="/contact.html">Contact me</Link></li>
       </nav>
 
       <ul className="social">
