@@ -8,28 +8,6 @@ import Skills from "./skills.js";
 import {Routes, Route } from "react-router-dom";
 import "./Master.css";
 
-
-;
-
-function App() {
-	return (
-		<div className="App">
-			<header id="mainContent"></header>
-			<body>
-				<Navbar />
-				<Menu />
-				<div className="text-area">
-					<h2 aria-label="Hi, I'm Sam, a Frontend Developer"
-						class="animate__animated animate__bounce">
-						Hi, I'm Sam, a Frontend Developer</h2>
-				</div>
-			</body>
-			<a href="#mainContent" className="skipLink"></a>
-		</div>
-	);
-}
-export default App;
-
 function App() {
 	return (
 		<div className="App">
@@ -53,9 +31,7 @@ function App() {
 					</h2>
 				</div>
 			</body>
-			<a id="mainContentLink" href="#mainContent" className="skipLink">
-				main content
-			</a>
+			<a id="mainContentLink" href="#mainContent" className="skipLink"></a>
 		</div>
 	);
 }
