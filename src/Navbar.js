@@ -1,5 +1,5 @@
 /* Sam Paugel 2022© */
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";

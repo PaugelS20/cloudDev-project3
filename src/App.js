@@ -13,12 +13,9 @@ function App() {
         <Menu />
           <div className="text-area">
            <h2 aria-label="Hi, I'm Sam, a Frontend Developer" class="animate__animated animate__bounce">Hi, I'm Sam, a Frontend Developer</h2>
-            <p>
-              
-            </p>
       </div>
       </body>
-      <a href="#mainContent" className="skipLink"></a>
+      <a id="mainContentLink" href="#mainContent" className="skipLink">main content</a>
     </div>
   );
 }

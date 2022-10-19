@@ -15,3 +15,6 @@ code {
   animation: rubberband;
   animation-duration: 2s;
 }
+mainContentLink {
+  display: none;
+}
