@@ -23,7 +23,7 @@ export default function Navbar() {
       <ul className="social">
       <IconContext.Provider value={{ className: "socialLinks" }}>
         <li><a href="https://www.linkedin.com/in/sam-paugel-884829232/"><BsLinkedin/></a></li>
-        <li><a href=""><SiIndeed/></a></li>
+        <li><a href="https://profile.indeed.com"><SiIndeed/></a></li>
         <li><a href="https://www.instagram.com/paugs17/"><BsInstagram/></a></li>
         <li><a href="https://www.facebook.com/sam.paugel.3/"><BsFacebook/></a></li>
         </IconContext.Provider>
