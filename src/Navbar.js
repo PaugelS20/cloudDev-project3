@@ -4,6 +4,7 @@ import "./Navbar.css";
 import { IconContext } from "react-icons";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiIndeed } from "react-icons/si";
+
 export default function Navbar() {
   return (
     <menu className="main-menu">

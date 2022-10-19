@@ -1,23 +1,29 @@
 /* Sam Paugel 2022© */
-import Navbar from "./Navbar.js";
 import React from "react";
-import "./Master.css";
 import Menu from "./Menu.js";
-/*import {BrowserRouter as Router} from 'react-router-dom';*/
+import Navbar from "./Navbar.js";
+import "./Master.css";
+
 function App() {
-  return (
-    <div className="App">
-      <header id="mainContent"></header>
-      <body>
-        <Navbar />
-        <Menu />
-          <div className="text-area">
-           <h2 aria-label="Hi, I'm Sam, a Frontend Developer" class="animate__animated animate__bounce">Hi, I'm Sam, a Frontend Developer</h2>
-      </div>
-      </body>
-      <a id="mainContentLink" href="#mainContent" className="skipLink">main content</a>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header id="mainContent"></header>
+			<body>
+				<Navbar />
+				<Menu />
+				<div className="text-area">
+					<h2
+						aria-label="Hi, I'm Sam, a Frontend Developer"
+						class="animate__animated animate__bounce">
+						Hi, I'm Sam, a Frontend Developer
+					</h2>
+				</div>
+			</body>
+			<a id="mainContentLink" href="#mainContent" className="skipLink">
+				main content
+			</a>
+		</div>
+	);
 }
 export default App;
 // <h1><div class="text">S</div>
