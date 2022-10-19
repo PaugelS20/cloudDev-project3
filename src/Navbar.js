@@ -17,9 +17,9 @@ export default function Navbar() {
         <span>Front End Developer</span>
       </div>
       <nav className="main-menu_nav">
-      <Link to="/about.html">About</Link></li>
-      <Link to="/skills.html">Skils</Link></li>
-      <Link to="/contact.html">Contact me</Link></li>
+      	<Link to="/about.html">About</Link>
+      	<Link to="/skills.html">Skils</Link>
+      	<Link to="/contact.html">Contact me</Link>
       </nav>
 
       <ul className="social">
