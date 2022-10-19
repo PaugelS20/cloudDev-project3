@@ -4,7 +4,9 @@ import "./Navbar.css";
 import { IconContext } from "react-icons";
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { SiIndeed } from "react-icons/si";
-import { Link } from 'react-router';
+import { BrowserRouter as Router, Switch,Route, Redirect,} from "react-router-dom";
+import { Link } from 'react-router-dom';
+
 
 export default function Navbar() {
   return (
