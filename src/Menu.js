@@ -8,8 +8,8 @@ export default function Menu() {
   const [open, setShow] = useState(false);
   return (
     <div className="hamburger">
-        {open?<Navbar />:null}
-        <Hamburger onClick={() => setShow(!open) }/>
+        {open?<Navbar />:setShow}
+        <Hamburger onClick={() => setShow(open) }/>
     </div>
     
   );
