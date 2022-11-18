@@ -43,7 +43,7 @@ import Menu from "./Menu.js";
 import Navbar from "./Navbar.js";
 import "./Master.css";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header id="mainContent"></header>
