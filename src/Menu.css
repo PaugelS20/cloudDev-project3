@@ -1,4 +1,4 @@
-/* .hamburger {
+.hamburger {
 	display: flex;
 	justify-content: end;
 }
@@ -6,5 +6,5 @@
 	.hamburger {
 		display: none;
 	}
-} */
+}
 
