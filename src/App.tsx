@@ -1,5 +1,5 @@
 /* Sam Paugel 2022© */
-import React from "react";
+import React = require('react');
 import '@ionic/react/css/core.css';
 import { setupIonicReact, IonNav } from '@ionic/react';
 import "./Master.css";

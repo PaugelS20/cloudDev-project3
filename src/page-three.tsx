@@ -1,4 +1,4 @@
-import React from 'react';
+import React = require('react');
 import { IonBackButton, IonButtons, IonHeader, IonContent, IonToolbar, IonTitle } from '@ionic/react';
 
 function PageThree() {

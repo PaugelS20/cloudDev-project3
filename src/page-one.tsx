@@ -1,4 +1,4 @@
-import React from 'react';
+import React = require('react');
 import { IonButton, IonHeader, IonContent, IonNavLink, IonToolbar, IonTitle } from '@ionic/react';
 
 import PageTwo from './page-two';
