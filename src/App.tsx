@@ -1,15 +1,22 @@
 /* Sam Paugel 2022© */
 import React from "react";
-// import Navbar from "./Navbar.js";
-// import '@ionic/react/css/core.css';
-// import { IonButton, IonDatetime } from '@ionic/react';
+import '@ionic/react/css/core.css';
+import { setupIonicReact, IonNav } from '@ionic/react';
 import "./Master.css";
+import PageOne from './page-one';
+
+setupIonicReact();
 
 const App = () => {
   return (
-
-    <div className="App">
-
+    
+  
+     <IonNav root={() => <PageOne />}></IonNav>
+    
+    
+  );
+}
+export default App;
 
 {/* 
     <>
@@ -31,7 +38,4 @@ const App = () => {
       </div>
       </body>
       <a id="mainContentLink" href="#mainContent" className="skipLink">main content</a> */} 
-    </div>
-  );
-}
-export default App;
+
