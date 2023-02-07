@@ -10,7 +10,7 @@ import {
   IonTitle,
 } from '@ionic/react';
 
-import PageThree from './ContactPage';
+import { Contact } from './ContactPage';
 
 export const About = () => {
   return (
@@ -25,7 +25,7 @@ export const About = () => {
       </IonHeader>
       <IonContent class="ion-padding">
         <h1>About</h1>
-        <IonNavLink routerDirection="forward" component={() => <PageThree />}>
+        <IonNavLink routerDirection="forward" component={() => <Contact />}>
           <IonButton>Go to Page Three</IonButton>
         </IonNavLink>
       </IonContent>
