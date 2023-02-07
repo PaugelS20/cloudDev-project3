@@ -10,9 +10,9 @@ import {
   IonTitle,
 } from '@ionic/react';
 
-import PageThree from './page-three';
+import PageThree from './ContactPage';
 
-function PageTwo() {
+export const About = () => {
   return (
     <>
       <IonHeader>
@@ -20,11 +20,11 @@ function PageTwo() {
           <IonButtons slot="start">
             <IonBackButton></IonBackButton>
           </IonButtons>
-          <IonTitle>Page Two</IonTitle>
+          <IonTitle>About</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent class="ion-padding">
-        <h1>Page Two</h1>
+        <h1>About</h1>
         <IonNavLink routerDirection="forward" component={() => <PageThree />}>
           <IonButton>Go to Page Three</IonButton>
         </IonNavLink>
@@ -32,5 +32,3 @@ function PageTwo() {
     </>
   );
 }
-
-export default PageTwo;

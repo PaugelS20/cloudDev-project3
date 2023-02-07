@@ -1,7 +1,7 @@
 import React from 'react';
 import { IonBackButton, IonButtons, IonHeader, IonContent, IonToolbar, IonTitle } from '@ionic/react';
 
-function PageThree() {
+function ContactPage() {
   return (
     <>
       <IonHeader>
@@ -19,4 +19,4 @@ function PageThree() {
   );
 }
 
-export default PageThree;
+export default ContactPage;

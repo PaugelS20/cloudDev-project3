@@ -1,5 +1,7 @@
 /* Sam Paugel 2023© */
 import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { About } from "./pages"
 import { 
   IonCard, 
   IonCardContent, 
@@ -12,6 +14,19 @@ import "./Master.css";
 const App = () => {
   return (
     <div className="App">
+    <BrowserRouter>
+        {/* <Link className="nav-link" to='/counter'>Counter Page</Link>
+        <Link className="nav-link" to='/people-list'>People List Page</Link> */}
+      <Routes>
+            {/* <Route exact path="/" element={ <HomePage/> }/> */}
+            <Route path="/about" element={ <About/> }/>
+            {/* <Route exact path="/people-list" element={ <Contact/> }/> */}
+            {/* <Route path="/protected" element={ <ProtectedPage/> }/> */}
+            {/* <Route path="/controlled" element={ <ControlledFormPage/> }/> */}
+            {/* <Route path="/uncontrolled" element={ <UncontrolledFormPage/> }/> */}
+            {/* <Route path="*" element={ <NotFoundPage/> }/> */}
+      </Routes>
+    </BrowserRouter>
         <IonCard>
           <IonCardHeader>
             <IonCardTitle>Card Title</IonCardTitle>
