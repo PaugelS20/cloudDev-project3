@@ -2,6 +2,7 @@
     "compilerOptions": {
         "jsx": "react",
         "outDir": "./dist",
+        "esModuleInterop": true,
         "allowJs": true,
         "target": "es5"
     },
