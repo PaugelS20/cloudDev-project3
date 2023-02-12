@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from "react-router-dom"
 
-// import { IonNav } from '@ionic/react';
+import { IonNav } from '@ionic/react';
 // import { Home } from './HomePage'
 // import { About } from './AboutPage'
 // import { Contact } from './ContactPage'
@@ -20,8 +20,14 @@ export const Navbar = () => {
         <li className='nav-item'>
         <Link className="nav-link" to='/Home'>Home</Link>
         </li>
+        
+        <li className='nav-item'>
         <Link className="nav-link" to='/About'>About</Link>
+        </li>
+        
+        <li className='nav-item'>
         <Link className="nav-link" to='/Contact'>Contact</Link>
+        </li>
       </ul>
   </div>
   </nav>

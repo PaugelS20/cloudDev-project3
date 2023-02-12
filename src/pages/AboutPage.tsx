@@ -24,7 +24,6 @@ export const About = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent class="ion-padding">
-        <h1>About</h1>
         <IonNavLink routerDirection="forward" component={() => <Contact />}>
           <IonButton>Go to Page Three</IonButton>
         </IonNavLink>

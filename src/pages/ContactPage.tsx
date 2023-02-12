@@ -1,5 +1,13 @@
 import React from 'react';
-import { IonBackButton, IonButtons, IonHeader, IonContent, IonToolbar, IonTitle } from '@ionic/react';
+import { 
+  IonBackButton, 
+  IonButtons, 
+  IonHeader, 
+  IonContent, 
+  IonToolbar, 
+  IonTitle,
+  IonCol, IonGrid, IonRow
+} from '@ionic/react';
 
 export const Contact = () => {
   return (
@@ -13,8 +21,18 @@ export const Contact = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent class="ion-padding">
-        <h1>Contact</h1>
+        Contact
       </IonContent>
+
+
+    <IonGrid fixed={true}>
+      <IonRow>
+        <IonCol>1</IonCol>
+        <IonCol>2</IonCol>
+        <IonCol>3</IonCol>
+      </IonRow>
+    </IonGrid>
+
     </>
   );
 }
