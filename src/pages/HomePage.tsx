@@ -17,8 +17,10 @@ export const Home = () => {
           </IonCardHeader>
 
           <IonCardContent>
-            <h2 aria-label="Hi, I'm Sam, a Frontend Developer">Hi, I'm Sam, a Frontend Developer</h2>
-            <p>I am currently learning Avd CSS And JS Frameworks. In JS Frameworks I have been learning how to use Angular which so far is a very easy and fun language to learn!</p>
+            <h2 aria-label="intro-text">Hi, I'm Sam, a Frontend Developer</h2>
+            <p>I am currently learning Advanced Front End, UIUX, and Serverless Cloud with React. I am currently learning how to use API's to make AWS and GitHub pages builds.</p>
+
+            <a href="https://github.com/PaugelS20">Heres my GitHub Profile to see some of the things I'm working on right now.</a>
           </IonCardContent>
       </IonCard>
   );

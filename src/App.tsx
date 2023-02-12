@@ -29,11 +29,6 @@ export default App;
 /* 
   <header id="mainContent"></header>
   <body>
-    <Navbar />
-    <Menu /> 
-      <div className="text-area">
-        
-  </div>
   </body>
   <a id="mainContentLink" href="#mainContent" className="skipLink">main content</a> */
 
