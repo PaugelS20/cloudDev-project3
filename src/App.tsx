@@ -3,14 +3,30 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Home, About, Contact, Navbar } from "./pages"
 import "./Master.css";
+/* Core CSS required for Ionic components to work properly */
+import '@ionic/react/css/core.css';
+
+/* Basic CSS for apps built with Ionic */
+import '@ionic/react/css/normalize.css';
+import '@ionic/react/css/structure.css'; // Remove if nothing is visible
+import '@ionic/react/css/typography.css';
+
+/* Optional CSS utils that can be commented out */
+import '@ionic/react/css/padding.css';
+import '@ionic/react/css/float-elements.css';
+import '@ionic/react/css/text-alignment.css';
+import '@ionic/react/css/text-transformation.css';
+import '@ionic/react/css/flex-utils.css';
+import '@ionic/react/css/display.css';
+import { setupIonicReact } from '@ionic/react';
+
+setupIonicReact();
 
 const App = () => {
   return (
     <div className="App">
     <BrowserRouter>
     <Navbar/>
-        {/* <Link className="nav-link" to='/counter'>Counter Page</Link>
-        <Link className="nav-link" to='/people-list'>People List Page</Link> */}
       <Routes>
             <Route path="/home" element={ <Home/> }/>
             <Route path="/about" element={ <About/> }/>

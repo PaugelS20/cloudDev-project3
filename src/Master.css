@@ -1,7 +1,7 @@
 /* Sam Paugel 2022© */
 
 /*********** Main Content ************/
-body, input, textarea, select, button {
+/*body, input, textarea, select, button {
   -webkit-font-smoothing: antialiased;
 }
 body {
@@ -13,8 +13,8 @@ body {
   font-family: serif;
   font-family: "Open Sans",sans-serif;
   padding-left: 13rem;
-  /* overflow-y: scroll;
-  overflow-x: hidden; */
+  overflow-y: scroll;
+  overflow-x: hidden; 
 }
 h1, h2, h3 {
   font-family: "Helvetica";
@@ -25,6 +25,7 @@ h1, h2, h3 {
   background-color: #970C10;
   color: #ffffff;
 } */
+/*
 .text-area {
   width: 40%;
 }
@@ -38,12 +39,14 @@ i {
   padding-top: 1em;
 }
 /* Tab through Accessability */
+/*
 ul li:hover ul, ul li ul:hover, ul li:focus-within ul {
   display: block;
 }
 /******************************/
 
 /* Main Content Link */
+/*
 .skipLink {
   position: absolute;
   left: -1000px;
@@ -53,9 +56,9 @@ ul li:hover ul, ul li ul:hover, ul li:focus-within ul {
 }
 
 /* Link Styles */
-a:link {
-  text-decoration: none;
-  /* color: #970C10; #ff0000 */
+/* a:link {
+  text-decoration: none; 
+  color: #970C10; #ff0000 
 }
 a:hover {
   color: #000000;
@@ -74,7 +77,7 @@ nav a:visited {
 /* nav a:active {
   color: #a71c1b; 970C10
 }  */
-nav a:hover {
+/* nav a:hover {
   color: #a71c1b;
   transition: color 0.3s;
   transition-property: color;
@@ -101,7 +104,7 @@ nav a:hover {
   100% {
       transform: scale(1, 1);
      }
-}
+} */
 /* New Content 2023 */
 /* iOS places the subtitle above the title */
 ion-card-header.ios {

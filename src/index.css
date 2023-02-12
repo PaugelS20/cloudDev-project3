@@ -11,7 +11,3 @@ code {
     monospace;
 }
 
-.h2Text {
-  animation: rubberband;
-  animation-duration: 2s;
-}

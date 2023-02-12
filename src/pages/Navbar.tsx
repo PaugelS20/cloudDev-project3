@@ -27,7 +27,8 @@ export const Navbar = () => {
   </nav>
   )
 }
-  
+{/* <Link className="nav-link" to='/counter'>Counter Page</Link>
+<Link className="nav-link" to='/people-list'>People List Page</Link> */}  
 
 {/* <menu className="main-menu">
       <div className="main-menu__top">
