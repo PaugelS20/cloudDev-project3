@@ -12,22 +12,24 @@ import {
 export const Contact = () => {
   return (
     <>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton></IonBackButton>
-          </IonButtons>
-          <IonTitle>Contact</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent class="ion-padding">
-        Contact
-      </IonContent>
+    
 
 
     <IonGrid fixed={true}>
       <IonRow>
-        <IonCol>1</IonCol>
+        <IonCol>  
+          <IonHeader>
+              <IonToolbar>
+                <IonButtons slot="start">
+                  <IonBackButton></IonBackButton>
+                </IonButtons>
+                <IonTitle>Contact</IonTitle>
+              </IonToolbar>
+          </IonHeader>
+            <IonContent class="ion-padding">
+              Contact
+            </IonContent>
+        </IonCol>
         <IonCol>2</IonCol>
         <IonCol>3</IonCol>
       </IonRow>
