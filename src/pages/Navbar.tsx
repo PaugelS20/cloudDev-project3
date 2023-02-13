@@ -41,7 +41,7 @@ export const Navbar = () => {
   </div>
   </nav>
 
-  <ion-grid>
+  {/* <ion-grid>
   <ion-row>
     <ion-col size-xl="3" size-md="6" size-xs="12">
       <ion-card>
@@ -55,7 +55,7 @@ export const Navbar = () => {
       </ion-card>
     </ion-col>
   </ion-row>
-</ion-grid>
+</ion-grid> */}
 
 
 {/* <IonMenu className='' contentId="main-content">
