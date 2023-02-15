@@ -1,33 +1,39 @@
 import React from 'react';
 import {
-  IonBackButton,
-  IonButtons,
-  IonButton,
-  IonHeader,
-  IonContent,
-  IonNavLink,
-  IonToolbar,
-  IonTitle,
+  IonCard, 
+	IonCardContent, 
+	IonCardHeader, 
+	IonCardSubtitle, 
+	IonCardTitle,
+  	IonGrid,
+  	IonRow,
+	IonCol
 } from '@ionic/react';
 
-import { Contact } from './ContactPage';
 
 export const About = () => {
   return (
     <>
-      <IonHeader>
-        <IonToolbar>
-          <IonButtons slot="start">
-            <IonBackButton></IonBackButton>
-          </IonButtons>
-          <IonTitle>About</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent class="ion-padding">
-        <IonNavLink routerDirection="forward" component={() => <Contact />}>
-          <IonButton>Go to Page Three</IonButton>
-        </IonNavLink>
-      </IonContent>
+	<IonGrid color="medium">
+		<IonRow>
+			<IonCol className='spacing'>
+				<IonCard>
+					<IonCardHeader>
+						<IonCardTitle aria-label="intro-title">
+							About
+						</IonCardTitle>
+						<IonCardSubtitle>
+							Get to know me a little better
+						</IonCardSubtitle>
+					</IonCardHeader>
+
+					<IonCardContent>
+						I am currently a student at Madison College
+					</IonCardContent>
+				</IonCard>
+			</IonCol>
+		</IonRow>
+	</IonGrid>
     </>
   );
 }
