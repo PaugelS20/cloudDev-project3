@@ -1,17 +1,17 @@
 /* Sam Paugel 2023© */
 import React from 'react';
 import { Link } from "react-router-dom";
-import { IonMenu, IonHeader, IonToolbar, IonContent, IonTitle, IonButtons, IonMenuButton, IonPage, IonGrid, IonRow, IonCol } from '@ionic/react';
+import { IonMenu, IonHeader, IonToolbar, IonContent, IonTitle, IonButtons, IonMenuButton, IonPage, IonGrid, IonRow, IonCol, IonButton } from '@ionic/react';
 import {  } from "ionicons/icons";
 
 
 export const Navbar = () => {
   return (
   <>
-    <IonGrid>
+    <IonGrid id='Navcontainer'>
       <IonRow>
           <IonMenu contentId="main-content">
-            <IonHeader>
+            <IonHeader translucent>
               <IonToolbar>
                 <IonTitle>Pages</IonTitle>
               </IonToolbar>
@@ -21,17 +21,17 @@ export const Navbar = () => {
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
             
                 <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
-                  <li className='nav-item'>
-                      <Link className="nav-link" to='/'>Home</Link>
-                  </li>
-                  
-                  <li className='nav-item'>
-                      <Link className="nav-link" to='/About'>About</Link>
-                  </li>
-                  
-                  <li className='nav-item'>
-                      <Link className="nav-link" to='/Contact'>Contact</Link>
-                  </li>
+                  <IonButton fill="clear">
+                      <Link className="navLink" to='/'>Home</Link>
+                  </IonButton>
+
+                  <IonButton fill="clear">
+                      <Link className="navLink" to='/About'>About</Link>
+                  </IonButton>
+
+                  <IonButton fill="clear">
+                      <Link className="navLink" to='/Contact'>Contact</Link>
+                  </IonButton>
                 </ul>
             
             </nav>
