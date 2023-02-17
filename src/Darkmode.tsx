@@ -4,7 +4,7 @@ import { IonButton } from '@ionic/react';
 
 export const Darkmode = () => {
     const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
-    const toggleTheme = () => theme == 'light' ? setTheme('dark'):setTheme('light');    
+    const toggleTheme = () => theme == 'light' ? setTheme('dark') : setTheme('light');    
 
     useEffect(() => {
         localStorage.setItem('theme', theme);

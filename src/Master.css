@@ -1,131 +1,80 @@
-/* Sam Paugel 2022© */
-
-/*********** Main Content ************/
-/*body, input, textarea, select, button {
-  -webkit-font-smoothing: antialiased;
-}
-body {
-  background-color: #BFCAD0;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  display: block;
-  min-width: 320px;
-  font-family: serif;
-  font-family: "Open Sans",sans-serif;
-  padding-left: 13rem;
-  overflow-y: scroll;
-  overflow-x: hidden; 
-}
-h1, h2, h3 {
-  font-family: "Helvetica";
-}
-/* header h1 {
-  padding: .2em;
-  border-radius: 3px 0px 0px 3px;
-  background-color: #970C10;
-  color: #ffffff;
-} */
-/*
-.text-area {
-  width: 40%;
-}
-hr {
-  background-color: black;
-  border: none;
-  height: 2px;
-}
-i {
-  display: block;
-  padding-top: 1em;
-}
-/* Tab through Accessability */
-/*
-ul li:hover ul, ul li ul:hover, ul li:focus-within ul {
-  display: block;
-}
-/******************************/
-
-/* Main Content Link */
-/*
-.skipLink {
-  position: absolute;
-  left: -1000px;
-}
-.skipLink:focus, .skipLink:active {
-  left: 0;
-}
-
-/* Link Styles */
-/* a:link {
-  text-decoration: none; 
-  color: #970C10; #ff0000 
-}
-a:hover {
-  color: #000000;
-}
-/* Nav link Styles */
-/* nav a:link {
-  text-decoration: none;
-  color: #fff;
-}
-nav a:visited {
-  color: white;
-}
-/* nav a:visited {
-  color: darkred;
-} */
-/* nav a:active {
-  color: #a71c1b; 970C10
-}  */
-/* nav a:hover {
-  color: #a71c1b;
-  transition: color 0.3s;
-  transition-property: color;
-  transition-duration: 0.3s, 0.3s;
-  transition-timing-function: ease, ease;
-  transition-delay: 0s, 0s;
-}
-.text {
-  display: flex;
-}
-.text:hover {
-  animation: effect linear 1s;
-}
-@keyframes effect {
-  0% {
-      transform: scale(1, 1);
-  }
-  25% {
-      transform: scale(1.5, 0.6);
-  }
-  50% {
-      transform: scale(1.9, 0.9);
-  }
-  100% {
-      transform: scale(1, 1);
-     }
-} */
-/* New Content 2023 */
+/* Sam Paugel new content 2023© */
 /* iOS places the subtitle above the title */
 ion-card-header.ios {
   display: flex;
   flex-flow: column-reverse;
 }
-/* 
-ion-grid {
-  background-color: #acacac;
-} */
+#contactChips {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 .spacing {
   margin-top: 3em;
 }
+.starWarsImg {
+  max-width: 70em;
+}
+.logoImg {
+  max-width: 3em;
+  margin-right: 2em;
+}
+/* Basic Link styles */
+a:link {
+  text-decoration: none;
+  color: #9f9e9e;
+}
+a:visited {
+  color: #9f9e9e;
+}
+a:hover {
+  color: lightblue;
+}
 
-#Navcontainer {
+/* Navigation styles */
+.normalNavContainer {
+    display: flex;
+}
+#navGrid {
   margin-bottom: 3em;
 }
+.navbar-normal {
+  display: flex;
+  align-items: center;
+}
+/* Customizing Nav Buttons */
+ion-button {
+  
+  /* --background: #b4b4b4; */
+  --background-hover: #7271712b;
+  /* --background-activated: #ff2600;
+  --background-focused: #f04444;
+
+  --color: grey; */
+  /* --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25); */
+
+  /* --ripple-color: deeppink; */
+
+  /* --padding-top: 10px;
+  --padding-bottom: 10px; */
+}
+/* Nav Responisve Sizing */
+@media (min-width: 768px) {
+  .navbar-small-devices {
+      display: none;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-normal {
+      display: none;
+  }
+}
+
+
+/* Dark mode styles */
 .darkModeContainer {
   display: flex;
   justify-content: flex-end;
-
 }
 /* Adding dark mode colors */
 .dark {
@@ -140,7 +89,6 @@ ion-grid {
  * Dark Colors
  * ------------------
  */
-
 body.dark {
   --ion-color-primary: #428cff;
   --ion-color-primary-rgb: 66, 140, 255;
@@ -205,12 +153,10 @@ body.dark {
   --ion-color-light-shade: #1e2023;
   --ion-color-light-tint: #383a3e;
 }
-
 /*
  * iOS Dark Theme
  * -------------------
  */
-
 .ios body.dark {
   --ion-background-color: #000000;
   --ion-background-color-rgb: 0, 0, 0;
@@ -243,12 +189,10 @@ body.dark {
   --ion-item-background: #1c1c1c;
   --ion-item-background-activated: #313131;
 }
-
 /*
  * Material Design Dark Theme
  * ------------------------------
  */
-
 .md body.dark {
   --ion-background-color: #121212;
   --ion-background-color-rgb: 18, 18, 18;
@@ -280,29 +224,7 @@ body.dark {
 
   --ion-item-background: #1a1b1e;
 }
-
 /* Optional CSS, this is added for the flashing that happens when toggling between themes */
 ion-item {
   --transition: none;
-}
-/* Customizing Nav Buttons */
-ion-button .navLink {
-  --background: #93e9be;
-  --background-hover: #9ce0be;
-  --background-activated: #88f4be;
-  --background-focused: #88f4be;
-
-  --color: blue;
-
-  --border-radius: 0;
-  --border-color: #000;
-  --border-style: solid;
-  --border-width: 1px;
-
-  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
-
-  --ripple-color: deeppink;
-
-  --padding-top: 10px;
-  --padding-bottom: 10px;
 }

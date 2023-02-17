@@ -1,14 +1,14 @@
 /* Sam Paugel 2023© */
 import React from 'react';
 import { Link } from "react-router-dom";
-import { IonMenu, IonHeader, IonToolbar, IonContent, IonTitle, IonButtons, IonMenuButton, IonPage, IonGrid, IonRow, IonCol, IonButton } from '@ionic/react';
-import {  } from "ionicons/icons";
+import { IonMenu, IonHeader, IonToolbar, IonContent, IonTitle, IonButtons, IonMenuButton, IonPage, IonGrid, IonRow, IonCol, IonButton,IonImg } from '@ionic/react';
+import { Darkmode } from '../Darkmode';
 
 
 export const Navbar = () => {
   return (
   <>
-    <IonGrid id='Navcontainer'>
+    <IonGrid id='navGrid'>
       <IonRow>
           <IonMenu contentId="main-content">
             <IonHeader translucent>
@@ -18,8 +18,6 @@ export const Navbar = () => {
             </IonHeader>
             
             <IonContent className="ion-padding">
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            
                 <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                   <IonButton fill="clear">
                       <Link className="navLink" to='/'>Home</Link>
@@ -33,18 +31,41 @@ export const Navbar = () => {
                       <Link className="navLink" to='/Contact'>Contact</Link>
                   </IonButton>
                 </ul>
-            
-            </nav>
-            
             </IonContent>
           </IonMenu>
             
             <IonPage id="main-content">
-              
-                <IonToolbar>
+            <IonToolbar>
+                <IonRow>
+                    <IonCol className='darkModeContainer'>
+                        <Darkmode/>
+                    </IonCol>
+                </IonRow>
                   <IonButtons slot="start">
-                    <IonMenuButton></IonMenuButton>
-                  </IonButtons>
+                    <nav className="navbar-small-devices">
+                      <IonMenuButton className='menuButton'></IonMenuButton>
+                    </nav>
+					
+					<IonRow>
+						<IonCol>
+							<nav className="navbar-normal">
+							<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
+									<IonButton>
+										<Link to='/'>Home</Link>
+									</IonButton>
+
+									<IonButton color="medium">
+										<Link className="navLink" to='/About'>About</Link>
+									</IonButton>
+
+									<IonButton>
+										<Link className="navLink" to='/Contact'>Contact</Link>
+									</IonButton>
+							</nav>
+						</IonCol>
+					</IonRow>
+                  
+				  </IonButtons>
                 </IonToolbar>
             </IonPage>
       </IonRow>

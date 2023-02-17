@@ -11,9 +11,9 @@ import {
   IonContent, 
   IonToolbar, 
   IonTitle,
-  IonCol, IonGrid, IonRow, IonIcon
+  IonCol, IonGrid, IonRow, IonIcon, IonText, IonChip
 } from '@ionic/react';
-import { phonePortraitOutline } from 'ionicons/icons';
+import { logoLinkedin, mailOutline, phonePortraitOutline } from 'ionicons/icons';
 
 export const Contact = () => {
   return (
@@ -31,8 +31,20 @@ export const Contact = () => {
 						</IonCardSubtitle>
 					</IonCardHeader>
 
-					<IonCardContent>
-						<IonIcon icon={phonePortraitOutline}></IonIcon><a href="tel:+16085144097">(608)-514-4097</a>
+					<IonCardContent id='contactChips'>
+
+            <IonChip>
+             <IonIcon icon={phonePortraitOutline}></IonIcon><a href="tel:+16085144097">(608)-514-4097</a>
+            </IonChip>
+
+            <IonChip>
+              <IonIcon icon={mailOutline}></IonIcon><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a>
+            </IonChip>
+
+            <IonChip>
+              <IonIcon icon={logoLinkedin}></IonIcon><a href="https://www.linkedin.com/in/sam-paugel2319117/">Linkedin</a>
+            </IonChip>
+
 					</IonCardContent>
 				</IonCard>
 			</IonCol>
