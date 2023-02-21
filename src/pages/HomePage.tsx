@@ -44,7 +44,7 @@ export const Home = () => {
 					use API's to make AWS and GitHub pages builds.</p>
 
 					<p>Heres my  <a href="https://github.com/PaugelS20">GitHub Profile<IonIcon icon={logoGithub}></IonIcon>
-					</a> to see some of the things I'm working on right now.</p>
+					</a> to see some of the things I'm working on right now.</p>3
 					</IonCardContent>
 				</IonCard>
 			</IonCol>
