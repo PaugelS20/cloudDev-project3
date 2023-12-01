@@ -33,15 +33,11 @@ export const Navbar = () => {
 		
 
                   <IonButton fill="clear">
-		   
                       <Link className="navLink" to='/About'>About</Link>
-		    
                   </IonButton>
 
                   <IonButton fill="clear">
-		     
                        <Link className="navLink" to='/Contact'>Contact</Link>
-		     
                   </IonButton>
                 </ul>
             </IonContent>
@@ -57,7 +53,7 @@ export const Navbar = () => {
 		    
                   	<IonButtons slot="start">
                     		<nav className="navbar-small-devices">
-                      		   <IonMenuToggle className='menuButton'></IonMenuToggle>
+                      		   <IonMenuButton className='menuButton'></IonMenuButton>
                     		</nav>
 				<IonRow>
 					<IonCol>
@@ -67,14 +63,18 @@ export const Navbar = () => {
 							<IonButton>
 								<Link to='/'>Home</Link>
 							</IonButton>
-							
-							<IonButton color="medium">
-								<Link className="navLink" to='/About'>About</Link>
-							</IonButton>
-						
-							<IonButton>
-								<Link className="navLink" to='/Contact'>Contact</Link>
-							</IonButton>
+
+							<IonMenuToggle>
+								<IonButton color="medium">
+									<Link className="navLink" to='/About'>About</Link>
+								</IonButton>
+							</IonMenuToggle>
+
+							<IonMenuToggle>
+								<IonButton>
+									<Link className="navLink" to='/Contact'>Contact</Link>
+								</IonButton>
+							</IonMenuToggle>
 						</nav>
 					</IonCol>
 				</IonRow>
