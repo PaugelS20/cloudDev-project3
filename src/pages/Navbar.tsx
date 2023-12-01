@@ -24,11 +24,13 @@ export const Navbar = () => {
             
             <IonContent className="ion-padding">
                 <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
-		<IonMenuToggle>
+		
                   <IonButton fill="clear">
+		    <IonMenuToggle>
                       <Link className="navLink" to='/'>Home</Link>
+		    </IonMenuToggle>
                   </IonButton>
-		</IonMenuToggle>
+		
 
                   <IonButton fill="clear">
                       <Link className="navLink" to='/About'>About</Link>
@@ -51,7 +53,7 @@ export const Navbar = () => {
 		    
                   	<IonButtons slot="start">
                     		<nav className="navbar-small-devices">
-                      		   <IonMenuToggle className='menuButton'></IonMenuToggle>
+                      		   <IonMenuButton className='menuButton'></IonMenuButton>
                     		</nav>
 				<IonRow>
 					<IonCol>
