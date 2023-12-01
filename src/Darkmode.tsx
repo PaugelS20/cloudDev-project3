@@ -12,7 +12,8 @@ export const Darkmode = () => {
         }, [theme]);
     
     return (
-        <div className={`App ${theme}`}>
+        // className={`App ${theme}`}
+        <div >
             <IonButton size="small" color="medium" className={`${theme}`} onClick={toggleTheme}>Toggle Dark Mode</IonButton>
         </div>
     )
