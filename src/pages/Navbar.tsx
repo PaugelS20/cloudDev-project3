@@ -33,11 +33,15 @@ export const Navbar = () => {
 		
 
                   <IonButton fill="clear">
+		    <IonMenuToggle>
                       <Link className="navLink" to='/About'>About</Link>
+		    <IonMenuToggle>
                   </IonButton>
 
                   <IonButton fill="clear">
-                      <Link className="navLink" to='/Contact'>Contact</Link>
+		     <IonMenuToggle>
+                       <Link className="navLink" to='/Contact'>Contact</Link>
+		     <IonMenuToggle>
                   </IonButton>
                 </ul>
             </IonContent>
@@ -58,23 +62,19 @@ export const Navbar = () => {
 				<IonRow>
 					<IonCol>
 						<nav className="navbar-normal">
-						<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
+						    <IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
 							
 							<IonButton>
 								<Link to='/'>Home</Link>
 							</IonButton>
 							
-							<IonMenuToggle>
-								<IonButton color="medium">
-									<Link className="navLink" to='/About'>About</Link>
-								</IonButton>
-							</IonMenuToggle>
-							
-							<IonMenuToggle>
-								<IonButton>
-									<Link className="navLink" to='/Contact'>Contact</Link>
-								</IonButton>
-							</IonMenuToggle>
+							<IonButton color="medium">
+								<Link className="navLink" to='/About'>About</Link>
+							</IonButton>
+						
+							<IonButton>
+								<Link className="navLink" to='/Contact'>Contact</Link>
+							</IonButton>
 						</nav>
 					</IonCol>
 				</IonRow>
