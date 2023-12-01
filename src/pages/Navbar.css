@@ -123,7 +123,7 @@ a {
     transition: fill 0.3s;
 } */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .list {
     flex-direction: column;
     height: auto;
