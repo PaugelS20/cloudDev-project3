@@ -2,6 +2,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Home, About, Contact, Navbar } from "./pages"
+import "./Master.css";
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -19,7 +20,7 @@ import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 import { setupIonicReact } from '@ionic/react';
 setupIonicReact();
-import "./Master.css";
+
 
 
 const App = () => {
