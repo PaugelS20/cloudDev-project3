@@ -35,13 +35,13 @@ export const Navbar = () => {
                   <IonButton fill="clear">
 		    <IonMenuToggle>
                       <Link className="navLink" to='/About'>About</Link>
-		    <IonMenuToggle>
+		    </IonMenuToggle>
                   </IonButton>
 
                   <IonButton fill="clear">
 		     <IonMenuToggle>
                        <Link className="navLink" to='/Contact'>Contact</Link>
-		     <IonMenuToggle>
+		     </IonMenuToggle>
                   </IonButton>
                 </ul>
             </IonContent>
