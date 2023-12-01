@@ -57,7 +57,7 @@ export const Navbar = () => {
 		    
                   	<IonButtons slot="start">
                     		<nav className="navbar-small-devices">
-                      		   <IonMenuButton className='menuButton'></IonMenuButton>
+                      		   <IonMenuToggle className='menuButton'></IonMenuToggle>
                     		</nav>
 				<IonRow>
 					<IonCol>
