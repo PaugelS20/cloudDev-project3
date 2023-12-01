@@ -24,9 +24,11 @@ export const Navbar = () => {
             
             <IonContent className="ion-padding">
                 <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
+		<IonMenuToggle>
                   <IonButton fill="clear">
                       <Link className="navLink" to='/'>Home</Link>
                   </IonButton>
+		</IonMenuToggle>
 
                   <IonButton fill="clear">
                       <Link className="navLink" to='/About'>About</Link>
@@ -55,11 +57,10 @@ export const Navbar = () => {
 					<IonCol>
 						<nav className="navbar-normal">
 						<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
-							<IonMenuToggle>
-            							<IonButton>
-							    	    	<Link to='/'>Home</Link>
-								</IonButton>
-          						</IonMenuToggle>
+							
+							<IonButton>
+								<Link to='/'>Home</Link>
+							</IonButton>
 							
 							<IonMenuToggle>
 								<IonButton color="medium">
