@@ -72,6 +72,10 @@ ion-button {
 
 
 /* Dark mode styles */
+#darkModeToggleButton {
+  background: none;
+}
+
 .darkModeContainer {
   display: flex;
   justify-content: flex-end;
