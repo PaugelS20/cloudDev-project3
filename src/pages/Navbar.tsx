@@ -64,17 +64,13 @@ export const Navbar = () => {
 								<Link to='/'>Home</Link>
 							</IonButton>
 
-							<IonMenuToggle>
-								<IonButton color="medium">
-									<Link className="navLink" to='/About'>About</Link>
-								</IonButton>
-							</IonMenuToggle>
-
-							<IonMenuToggle>
-								<IonButton>
-									<Link className="navLink" to='/Contact'>Contact</Link>
-								</IonButton>
-							</IonMenuToggle>
+							<IonButton color="medium">
+								<Link className="navLink" to='/About'>About</Link>
+							</IonButton>
+					
+							<IonButton>
+								<Link className="navLink" to='/Contact'>Contact</Link>
+							</IonButton>
 						</nav>
 					</IonCol>
 				</IonRow>
