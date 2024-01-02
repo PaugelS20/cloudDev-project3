@@ -1,4 +1,4 @@
-/* Sam Paugel new content 2023© */
+/* Sam Paugel new content 2024© */
 /* iOS places the subtitle above the title */
 ion-card-header.ios {
   display: flex;
@@ -12,6 +12,7 @@ ion-card-header.ios {
 .spacing {
   margin-top: 3em;
 }
+/* Images */
 .starWarsImg {
   max-width: 70em;
 }
@@ -30,6 +31,12 @@ a:visited {
 a:hover {
   color: lightblue;
 }
+/* 
+@media (background:){
+  a:visited {
+    color: #595858;
+  }
+} */
 
 /* Navigation styles */
 .normalNavContainer {
