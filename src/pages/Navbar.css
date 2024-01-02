@@ -4,7 +4,7 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
-/* Sam Paugel 2022© */
+/* Sam Paugel 2024© */
 
 .main-menu {
   width: 13rem;
@@ -91,6 +91,10 @@ a {
   background-color: transparent;
   transition: color 0.3s;
   text-decoration: none;
+}
+
+.ion-menu-toggle {
+  margin: 0 auto;
 }
 
 /* Social media links */
