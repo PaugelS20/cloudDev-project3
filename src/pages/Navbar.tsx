@@ -1,86 +1,88 @@
-/* Sam Paugel 2023© */
+/* Sam Paugel 2024© */
 import React from 'react';
 import { Link } from "react-router-dom";
-import { 
-	IonMenu, IonHeader, IonToolbar, IonContent, 
-	IonTitle, IonButtons, IonMenuButton, 
+import {
+	IonMenu, IonHeader, IonToolbar, IonContent,
+	IonTitle, IonButtons, IonMenuButton,
 	IonPage, IonGrid, IonRow, IonCol,
-	IonButton, IonImg, IonMenuToggle 
+	IonButton, IonImg, IonMenuToggle
 } from '@ionic/react';
 import { Darkmode } from '../Darkmode';
 
 
 export const Navbar = () => {
-  return (
-  <>
-    <IonGrid id='navGrid'>
-      <IonRow>
-          <IonMenu contentId="main-content">
-            <IonHeader translucent>
-              <IonToolbar>
-                <IonTitle>Pages</IonTitle>
-              </IonToolbar>
-            </IonHeader>
-            
-            <IonContent className="ion-padding">
-                <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
-		          <IonMenuToggle>
-					<IonButton fill="clear">
-						<Link className="navLink" to='/'>Home</Link>
-					</IonButton>
-		          </IonMenuToggle>
-		
-              <IonMenuToggle>
-                  <IonButton fill="clear">
-                      <Link className="navLink" to='/About'>About</Link>
-                  </IonButton>
-              </IonMenuToggle>
-
-                  <IonButton fill="clear">
-                       <Link className="navLink" to='/Contact'>Contact</Link>
-                  </IonButton>
-                </ul>
-            </IonContent>
-          </IonMenu>
-            
-            <IonPage id="main-content">
-            <IonToolbar>
-                <IonRow>
-                    <IonCol className='darkModeContainer'>
-                        <Darkmode/>
-                    </IonCol>
-                </IonRow>
-		    
-                  	<IonButtons slot="start">
-                    		<nav className="navbar-small-devices">
-                      		   <IonMenuButton className='menuButton'></IonMenuButton>
-                    		</nav>
+	return (
+		<>
+			<IonGrid id='navGrid'>
 				<IonRow>
-					<IonCol>
-						<nav className="navbar-normal">
-						    <IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
-							
-							<IonButton>
-								<Link to='/'>Home</Link>
-							</IonButton>
+					<IonMenu contentId="main-content">
+						<IonHeader translucent>
+							<IonToolbar>
+								<IonTitle>Pages</IonTitle>
+							</IonToolbar>
+						</IonHeader>
 
-							<IonButton color="medium">
-								<Link className="navLink" to='/About'>About</Link>
-							</IonButton>
-					
-							<IonButton>
-								<Link className="navLink" to='/Contact'>Contact</Link>
-							</IonButton>
-						</nav>
-					</IonCol>
+						<IonContent className="ion-padding">
+							<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
+								<IonMenuToggle>
+									<IonButton fill="clear">
+										<Link className="navLink" to='/'>Home</Link>
+									</IonButton>
+								</IonMenuToggle>
+
+								<IonMenuToggle>
+									<IonButton fill="clear">
+										<Link className="navLink" to='/About'>About</Link>
+									</IonButton>
+								</IonMenuToggle>
+
+								<IonMenuToggle>
+									<IonButton fill="clear">
+										<Link className="navLink" to='/Contact'>Contact</Link>
+									</IonButton>
+								</IonMenuToggle>
+							</ul>
+						</IonContent>
+					</IonMenu>
+
+					<IonPage id="main-content">
+						<IonToolbar>
+							<IonRow>
+								<IonCol className='darkModeContainer'>
+									<Darkmode />
+								</IonCol>
+							</IonRow>
+
+							<IonButtons slot="start">
+								<nav className="navbar-small-devices">
+									<IonMenuButton className='menuButton'></IonMenuButton>
+								</nav>
+								<IonRow>
+									<IonCol>
+										<nav className="navbar-normal">
+											<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
+
+											<IonButton>
+												<Link to='/'>Home</Link>
+											</IonButton>
+
+											<IonButton color="medium">
+												<Link className="navLink" to='/About'>About</Link>
+											</IonButton>
+
+											<IonButton>
+												<Link className="navLink" to='/Contact'>Contact</Link>
+											</IonButton>
+										</nav>
+									</IonCol>
+								</IonRow>
+							</IonButtons>
+						</IonToolbar>
+					</IonPage>
 				</IonRow>
-			</IonButtons>
-                </IonToolbar>
-            </IonPage>
-      </IonRow>
-  </IonGrid>
-</>
-  )
+			</IonGrid>
+		</>
+	)
 }
 
 {/* <menu className="main-menu">
