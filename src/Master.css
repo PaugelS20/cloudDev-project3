@@ -23,7 +23,8 @@ ion-card-header.ios {
 /* Basic Link styles */
 a:link {
   text-decoration: none;
-  color: #474646;
+  /* color: #474646; */
+  mix-blend-mode: multiply
 }
 a:visited {
   color: #9f9e9e;
@@ -87,6 +88,7 @@ ion-button {
   display: flex;
   justify-content: flex-end;
 }
+
 /* Adding dark mode colors */
 .dark {
   background-color: #333;
@@ -240,13 +242,11 @@ ion-item {
   --transition: none;
 }
 
-
 /*
  * Dark Colors
  * -------------------------------------------
  */
-
- body.dark {
+body.dark {
   --ion-color-primary: #428cff;
   --ion-color-primary-rgb: 66, 140, 255;
   --ion-color-primary-contrast: #ffffff;
@@ -315,7 +315,6 @@ ion-item {
  * iOS Dark Theme
  * -------------------------------------------
  */
-
 .ios body.dark {
   --ion-background-color: #000000;
   --ion-background-color-rgb: 0, 0, 0;
@@ -359,7 +358,6 @@ ion-item {
  * Material Design Dark Theme
  * -------------------------------------------
  */
-
 .md body.dark {
   --ion-background-color: #121212;
   --ion-background-color-rgb: 18, 18, 18;
