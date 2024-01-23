@@ -56,7 +56,7 @@ export const Navbar = () => {
 							<IonButtons slot="start">
 								<nav className="navbar-small-devices">
 									<IonMenuButton className='menuButton'></IonMenuButton>
-									<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
+									{/* <IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg> */}
 								</nav>
 								<IonRow>
 									<IonCol>
