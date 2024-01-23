@@ -12,6 +12,11 @@ ion-card-header.ios {
 .spacing {
   margin-top: 3em;
 }
+body {
+  overflow: auto;
+}
+
+
 /* Images */
 .starWarsImg {
   max-width: 70em;
