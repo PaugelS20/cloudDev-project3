@@ -13,7 +13,7 @@ ion-card-header.ios {
   margin-top: 3em;
 }
 body {
-  overflow: auto;
+  overflow-y: auto;
 }
 
 
