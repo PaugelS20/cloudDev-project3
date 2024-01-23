@@ -11,9 +11,18 @@ import {
   IonContent, 
   IonToolbar, 
   IonTitle,
-  IonCol, IonGrid, IonRow, IonIcon, IonText, IonChip
+  IonCol, 
+  IonGrid, 
+  IonRow, 
+  IonIcon, 
+  IonText, 
+  IonChip
 } from '@ionic/react';
-import { logoLinkedin, mailOutline, phonePortraitOutline } from 'ionicons/icons';
+import { 
+  logoLinkedin, 
+  mailOutline, 
+  phonePortraitOutline 
+} from 'ionicons/icons';
 
 export const Contact = () => {
   return (
@@ -34,15 +43,19 @@ export const Contact = () => {
 					<IonCardContent id='contactChips'>
 
             <IonChip>
-             <IonIcon icon={phonePortraitOutline}></IonIcon><a href="tel:+16085144097">(608)-514-4097</a>
+             	<IonIcon icon={phonePortraitOutline}></IonIcon><a href="tel:+16085144097">(608)-514-4097</a>
             </IonChip>
 
             <IonChip>
-              <IonIcon icon={mailOutline}></IonIcon><a href="mailto:shpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a>
+              	<IonIcon icon={mailOutline}></IonIcon><a href="mailto:spaugelwork@gmail.com">spaugelwork@gmail.com</a>
             </IonChip>
 
+            {/* <IonChip>
+              <IonIcon icon={mailOutline}></IonIcon><a href="mailto:sshpaugel@madisoncollege.edu">shpaugel@madisoncollege.edu</a>
+            </IonChip> */}
+
             <IonChip>
-              <IonIcon icon={logoLinkedin}></IonIcon><a href="https://www.linkedin.com/in/sam-paugel2319117/">Linkedin</a>
+              	<IonIcon icon={logoLinkedin}></IonIcon><a href="https://www.linkedin.com/in/sam-paugel2319117/">Linkedin</a>
             </IonChip>
 
 					</IonCardContent>
@@ -58,78 +71,3 @@ export const Contact = () => {
     </>
   );
 }
-
-
-    // <IonGrid fixed={true}>
-    //   <IonRow>
-    //     <IonCol>  
-    //       <IonHeader>
-    //           <IonToolbar>
-    //             <IonButtons slot="start">
-    //               <IonBackButton></IonBackButton>
-    //             </IonButtons>
-    //             <IonTitle>Contact</IonTitle>
-    //           </IonToolbar>
-    //       </IonHeader>
-    //         <IonContent class="ion-padding">
-    //           Contact
-    //         </IonContent>
-    //     </IonCol>
-    //     <IonCol>2</IonCol>
-    //     <IonCol>3</IonCol>
-    //   </IonRow>
-      
-    //   <IonRow>
-    //     <IonCol>  
-    //       <IonHeader>
-    //           <IonToolbar>
-    //             <IonButtons slot="start">
-    //               <IonBackButton></IonBackButton>
-    //             </IonButtons>
-    //             <IonTitle>Contact</IonTitle>
-    //           </IonToolbar>
-    //       </IonHeader>
-    //         <IonContent class="ion-padding">
-    //           Contact
-    //         </IonContent>
-    //     </IonCol>
-    //     <IonCol>2</IonCol>
-    //     <IonCol>3</IonCol>
-    //   </IonRow>
-      
-    //   <IonRow>
-    //     <IonCol>  
-    //       <IonHeader>
-    //           <IonToolbar>
-    //             <IonButtons slot="start">
-    //               <IonBackButton></IonBackButton>
-    //             </IonButtons>
-    //             <IonTitle>Contact</IonTitle>
-    //           </IonToolbar>
-    //       </IonHeader>
-    //         <IonContent class="ion-padding">
-    //           Contact
-    //         </IonContent>
-    //     </IonCol>
-    //     <IonCol>2</IonCol>
-    //     <IonCol>3</IonCol>
-    //   </IonRow>
-      
-    //   <IonRow>
-    //     <IonCol>  
-    //       <IonHeader>
-    //           <IonToolbar>
-    //             <IonButtons slot="start">
-    //               <IonBackButton></IonBackButton>
-    //             </IonButtons>
-    //             <IonTitle>Contact</IonTitle>
-    //           </IonToolbar>
-    //       </IonHeader>
-    //         <IonContent class="ion-padding">
-    //           Contact
-    //         </IonContent>
-    //     </IonCol>
-    //     <IonCol>2</IonCol>
-    //     <IonCol>3</IonCol>
-    //   </IonRow>
-    // </IonGrid>
