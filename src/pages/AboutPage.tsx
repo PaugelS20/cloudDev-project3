@@ -1,6 +1,7 @@
+/* Sam Paugel 2024© */
 import React from 'react';
 import {
-  IonCard, 
+  	IonCard, 
 	IonCardContent, 
 	IonCardHeader, 
 	IonCardSubtitle, 
@@ -19,7 +20,9 @@ export const About = () => {
 		<IonRow>
 			<IonCol className='spacing'>
 				<IonCard>
-				<IonImg className='logoImg' src="../images/PictureofMeAboutPage" alt="Sam Paugel"></IonImg>
+					
+					<IonImg src="../images/PicOfSamPaugel.png" alt="Sam Paugel"></IonImg>
+					
 					<IonCardHeader>
 						<IonCardTitle aria-label="intro-title">
 							About
@@ -31,7 +34,7 @@ export const About = () => {
 
 					<IonCardContent>
 						Hi I'm Sam, a Entry level Front End Developer based out of Mcfarland Wisconsin. I'm currently a student at Madison College. My predicted graduation date is May 2024. 
-						I was also an Intern for Subzero Wolf and Cove for six and a half months. Doing Front-End work, QA Testing, and Data collection with SQL/Graph work with Excel.
+						I was also an Intern for Subzero Wolf and Cove for six and a half months. Doing Front-End work, QA Testing, and Data collection with SQL & Graph work in Excel.
 					</IonCardContent>
 				</IonCard>
 			</IonCol>
