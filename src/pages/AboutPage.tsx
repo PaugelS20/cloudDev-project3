@@ -7,7 +7,8 @@ import {
 	IonCardTitle,
   	IonGrid,
   	IonRow,
-	IonCol
+	IonCol,
+	IonImg
 } from '@ionic/react';
 
 
@@ -18,6 +19,7 @@ export const About = () => {
 		<IonRow>
 			<IonCol className='spacing'>
 				<IonCard>
+				<IonImg className='logoImg' src="../images/PictureofMeAboutPage" alt="Sam Paugel"></IonImg>
 					<IonCardHeader>
 						<IonCardTitle aria-label="intro-title">
 							About
