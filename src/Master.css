@@ -12,7 +12,7 @@ ion-card-header.ios {
 .spacing {
   margin-top: 3em;
 }
-body {
+body.dark, body.light {
   overflow-y: auto;
   position: relative;
 }
