@@ -54,6 +54,9 @@ a:hover {
   display: flex;
   align-items: center;
 }
+.navbar-small-devices {
+  display: flex;
+}
 /* Customizing Nav Buttons */
 ion-button {
   
