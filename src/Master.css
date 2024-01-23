@@ -24,7 +24,6 @@ ion-card-header.ios {
 a:link {
   text-decoration: none;
   /* color: #474646; */
-  mix-blend-mode: multiply
 }
 a:visited {
   color: #9f9e9e;
