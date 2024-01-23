@@ -80,7 +80,6 @@ ion-button {
 @media (min-width: 768px) {
   .navbar-small-devices {
       display: none;
-      display: flex;
   }
 }
 @media (max-width: 768px) {
