@@ -12,7 +12,7 @@ ion-card-header.ios {
 .spacing {
   margin-top: 3em;
 }
-body.dark, body.light {
+body {
   overflow-y: auto;
   position: relative;
 }
@@ -26,6 +26,10 @@ body.dark, body.light {
   max-width: 3em;
   margin-right: 2em;
 }
+.samPic {
+ max-width: 50%;
+}
+
 /* Basic Link styles */
 a:link {
   text-decoration: none;
