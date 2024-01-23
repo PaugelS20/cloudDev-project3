@@ -18,6 +18,7 @@ export const Navbar = () => {
 					<IonMenu contentId="main-content">
 						<IonHeader translucent>
 							<IonToolbar>
+							<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
 								<IonTitle>Pages</IonTitle>
 							</IonToolbar>
 						</IonHeader>
