@@ -6,6 +6,10 @@
 */
 /* Sam Paugel 2024© */
 
+.navbar-small-devices {
+  display: flex;
+}
+
 .main-menu {
   width: 13rem;
   background-color: #181818;
@@ -86,8 +90,8 @@ span {
   width: 7rem;
   height: auto;
 }
-a {
-  color: #a60000;
+a:hover {
+  color: #eb4747;
   background-color: transparent;
   transition: color 0.3s;
   text-decoration: none;

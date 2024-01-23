@@ -59,9 +59,7 @@ a:hover {
   display: flex;
   align-items: center;
 }
-.navbar-small-devices {
-  display: flex;
-}
+
 /* Customizing Nav Buttons */
 ion-button {
   
@@ -82,6 +80,7 @@ ion-button {
 @media (min-width: 768px) {
   .navbar-small-devices {
       display: none;
+      display: flex;
   }
 }
 @media (max-width: 768px) {
