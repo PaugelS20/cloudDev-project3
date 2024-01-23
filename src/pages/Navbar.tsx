@@ -18,7 +18,6 @@ export const Navbar = () => {
 					<IonMenu contentId="main-content">
 						<IonHeader translucent>
 							<IonToolbar>
-							<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
 								<IonTitle>Pages</IonTitle>
 							</IonToolbar>
 						</IonHeader>
@@ -57,12 +56,13 @@ export const Navbar = () => {
 							<IonButtons slot="start">
 								<nav className="navbar-small-devices">
 									<IonMenuButton className='menuButton'></IonMenuButton>
+									<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
 								</nav>
 								<IonRow>
 									<IonCol>
 										<nav className="navbar-normal">
 											<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
-
+											
 											<IonButton>
 												<Link to='/'>Home</Link>
 											</IonButton>
