@@ -14,6 +14,7 @@ ion-card-header.ios {
 }
 body {
   overflow-y: auto;
+  position: relative;
 }
 
 
@@ -84,7 +85,6 @@ ion-button {
       display: none;
   }
 }
-
 
 /* Dark mode styles */
 #darkModeToggleButton {

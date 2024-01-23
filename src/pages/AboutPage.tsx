@@ -21,7 +21,7 @@ export const About = () => {
 			<IonCol className='spacing'>
 				<IonCard>
 					
-					<IonImg src="../images/PicOfSamPaugel.png" alt="Sam Paugel"></IonImg>
+					<IonImg className='samPic' src="../images/PicOfSamPaugel.png" alt="Sam Paugel"></IonImg>
 					
 					<IonCardHeader>
 						<IonCardTitle aria-label="intro-title">
