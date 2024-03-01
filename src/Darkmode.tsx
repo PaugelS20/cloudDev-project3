@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { IonButton } from '@ionic/react';
+import { IonButton, IonIcon } from '@ionic/react';
+import { invertModeOutline } from 'ionicons/icons';
 
 export const Darkmode = () => {
     const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
@@ -18,6 +19,7 @@ export const Darkmode = () => {
                 className={`${theme}`} 
                 onClick={toggleTheme}
             >
+                <IonIcon icon={invertModeOutline}></IonIcon>
                 Toggle Dark Mode
             </IonButton>
         </div>

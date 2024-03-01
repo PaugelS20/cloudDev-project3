@@ -5,7 +5,7 @@ import {
 	IonMenu, IonHeader, IonToolbar, IonContent,
 	IonTitle, IonButtons, IonMenuButton,
 	IonPage, IonGrid, IonRow, IonCol,
-	IonButton, IonImg, IonMenuToggle, IonIcon
+	IonButton, IonImg, IonMenuToggle
 } from '@ionic/react';
 import { Darkmode } from '../Darkmode';
 import { invertModeOutline } from 'ionicons/icons';
@@ -50,7 +50,6 @@ export const Navbar = () => {
 						<IonToolbar>
 							<IonRow>
 								<IonCol className='darkModeContainer'>
-								<IonIcon icon={invertModeOutline}></IonIcon>
 									<Darkmode />
 								</IonCol>
 							</IonRow>
