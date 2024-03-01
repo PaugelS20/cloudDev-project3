@@ -33,8 +33,7 @@ export const About = () => {
 					</IonCardHeader>
 
 					<IonCardContent>
-						Hi I'm Sam, a Entry level Front End Developer based out of Mcfarland Wisconsin. I'm currently a student at Madison College. My predicted graduation date is May 2024. 
-						I was also an Intern for Subzero Wolf and Cove for six and a half months. Doing Front-End work, QA Testing, and Data collection with SQL & Graph work in Excel.
+						Hi I'm Sam, an Entry-level Front End Developer based out of McFarland Wisconsin. Currently a student at Madison College. My graduation date is May 2024. I was also an Intern for Subzero Wolf and Cove for six and a half months. Doing Front-End work, QA Testing, and Data collection with SQL & Graph work in Excel.
 					</IonCardContent>
 				</IonCard>
 			</IonCol>
