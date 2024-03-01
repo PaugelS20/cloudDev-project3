@@ -1,4 +1,4 @@
-/* Sam Paugel 2023© */
+/* Sam Paugel 2024© */
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Home, About, Contact, Navbar } from "./pages"
