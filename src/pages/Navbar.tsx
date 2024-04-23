@@ -8,7 +8,6 @@ import {
 	IonButton, IonImg, IonMenuToggle
 } from '@ionic/react';
 import { Darkmode } from '../Darkmode';
-import { invertModeOutline } from 'ionicons/icons';
 
 
 export const Navbar = () => {
