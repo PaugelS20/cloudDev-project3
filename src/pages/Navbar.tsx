@@ -63,11 +63,11 @@ export const Navbar = () => {
 										<nav className="navbar-normal">
 											<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
 											
-											<IonButton>
+											<IonButton fill='clear'>
 												<Link to='/'>Home</Link>
 											</IonButton>
 
-											<IonButton color="medium">
+											<IonButton>
 												<Link className="navLink" to='/About'>About</Link>
 											</IonButton>
 
