@@ -5,16 +5,17 @@ import {
 	IonMenu, IonHeader, IonToolbar, IonContent,
 	IonTitle, IonButtons, IonMenuButton,
 	IonPage, IonGrid, IonRow, IonCol,
-	IonButton, IonImg, IonMenuToggle
+	IonButton, IonImg, IonMenuToggle, IonList
 } from '@ionic/react';
 import { Darkmode } from '../Darkmode';
+import "../Master.css";
 
 
 export const Navbar = () => {
 	return (
-		<>
 			<IonGrid id='navGrid'>
 				<IonRow>
+					{/* Mobile Menu */}
 					<IonMenu contentId="main-content">
 						<IonHeader translucent>
 							<IonToolbar>
@@ -23,7 +24,7 @@ export const Navbar = () => {
 						</IonHeader>
 
 						<IonContent className="ion-padding">
-							<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
+							<IonList className='ion-flex'>
 								<IonMenuToggle>
 									<IonButton fill="clear">
 										<Link className="navLink" to='/'>Home</Link>
@@ -41,48 +42,53 @@ export const Navbar = () => {
 										<Link className="navLink" to='/Contact'>Contact</Link>
 									</IonButton>
 								</IonMenuToggle>
-							</ul>
+							</IonList>
 						</IonContent>
 					</IonMenu>
 
 					<IonPage id="main-content">
 						<IonToolbar>
 							<IonRow>
+								<IonCol size="9" className="navbar-small-devices ion-justify-content-center ion-no-padding" offset='1.3'>
+									<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
+								</IonCol>
 								<IonCol className='darkModeContainer'>
 									<Darkmode />
 								</IonCol>
+							
 							</IonRow>
 
 							<IonButtons slot="start">
 								<nav className="navbar-small-devices">
 									<IonMenuButton className='menuButton'></IonMenuButton>
-									{/* <IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg> */}
 								</nav>
-								<IonRow>
-									<IonCol>
-										<nav className="navbar-normal">
-											<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
-											
-											<IonButton fill='clear'>
-												<Link to='/'>Home</Link>
-											</IonButton>
+	
+								<IonGrid>
+									<IonRow>
+										<IonCol size="auto">
+											<nav className="navbar-normal">
+												<IonImg className='logoImg' src="../images/logo.png" alt="Paugel logo"></IonImg>
+												
+												<IonButton fill='clear'>
+													<Link to='/'>Home</Link>
+												</IonButton>
 
-											<IonButton>
-												<Link className="navLink" to='/About'>About</Link>
-											</IonButton>
+												<IonButton>
+													<Link className="navLink" to='/About'>About</Link>
+												</IonButton>
 
-											<IonButton>
-												<Link className="navLink" to='/Contact'>Contact</Link>
-											</IonButton>
-										</nav>
-									</IonCol>
-								</IonRow>
+												<IonButton>
+													<Link className="navLink" to='/Contact'>Contact</Link>
+												</IonButton>
+											</nav>
+										</IonCol>
+									</IonRow>
+								</IonGrid>
 							</IonButtons>
 						</IonToolbar>
 					</IonPage>
 				</IonRow>
 			</IonGrid>
-		</>
 	)
 }
 
