@@ -1,8 +1,8 @@
 /* Sam Paugel new content 2024© */
 
-html{
+/* html{
   overflow: auto;
-}
+} */
 
 /* Index.tsx styles */
 body { 
@@ -44,25 +44,21 @@ ion-card-header.ios {
   margin-right: 2em;
 }
 .samPic {
-  max-width: 50%;
+  max-width: 100%;
+  padding: 1em 12em;
 }
 
 /* Basic Link styles */
 a:link {
   text-decoration: none;
 }
-a:visited {
+/* a:visited {
   color: #9f9e9e;
-}
+}*/
+
 a:hover {
-  color: lightblue;
+  color: #D60000;
 }
-/* 
-@media (background:){
-  a:visited {
-    color: #595858;
-  }
-} */
 
 /* Navigation styles */
 .normalNavContainer {
@@ -75,6 +71,13 @@ a:hover {
   display: flex;
   align-items: center;
 }
+.navbar-small-devices {
+  display: flex;
+}
+.ion-menu-toggle {
+  margin: 0 auto;
+}
+
 
 /* Customizing Nav Buttons */
 ion-button {
