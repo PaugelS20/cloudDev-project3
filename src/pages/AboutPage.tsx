@@ -12,14 +12,14 @@ import {
 	IonImg
 } from '@ionic/react';
 
-
 export const About = () => {
   return (
+
 	<IonGrid>
-		<IonRow>
-			<IonCol className='ion-margin-top'>
+		<IonRow className='ion-justify-content-center'>
+			<IonCol className='ion-margin-top' sizeLg='8' sizeMd="7" sizeSm='6'>
 				<IonCard>
-					<IonImg className='samPic' src="../images/PicOfSamPaugel.png" alt="Sam Paugel"></IonImg>
+					<IonImg className='samPic' src="../images/PictureofSamPaugel.png" alt="Sam Paugel"></IonImg>
 					
 					<IonCardHeader>
 						<IonCardTitle aria-label="intro-title">
@@ -39,5 +39,6 @@ export const About = () => {
 			</IonCol>
 		</IonRow>
 	</IonGrid>
+	
   );
 }
