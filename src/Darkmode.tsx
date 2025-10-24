@@ -16,7 +16,7 @@ export const Darkmode = () => {
         // className={`App ${theme}`}
         <div id="darkModeToggleButton">
             <IonButton
-                id="DarkModeButton"
+                id="darkModeButton"
                 shape="round"
                 role="button"
                 aria-label='DarkModeToggle'
