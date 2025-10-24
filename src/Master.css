@@ -107,7 +107,7 @@ ion-button {
 }
 
 /* Dark mode styles */
-#darkModeButton {
+.dark#darkModeButton {
   background: none;
 }
 
