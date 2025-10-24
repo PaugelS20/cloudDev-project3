@@ -1,4 +1,4 @@
-/* Sam Paugel new content 2024© */
+/* Sam Paugel new content 2026© */
 
 /* html{
   overflow: auto;
@@ -45,7 +45,6 @@ ion-card-header.ios {
 }
 .samPic {
   max-width: 100%;
-  
 }
 
 /* Basic Link styles */
@@ -108,7 +107,7 @@ ion-button {
 }
 
 /* Dark mode styles */
-#darkModeToggleButton {
+#darkModeButton {
   background: none;
 }
 
