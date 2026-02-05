@@ -23,7 +23,7 @@ export const Navbar = () => {
 						</IonHeader>
 
 						<IonContent className="ion-padding">
-							<IonList className='ion-flex'>
+							<IonList className='ion-flex-column ion-align-content-center'>
 								<IonMenuToggle>
 									<IonButton fill="clear">
 										<Link className="navLink" to='/'>Home</Link>
